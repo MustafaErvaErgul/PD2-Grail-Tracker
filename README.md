@@ -17,3 +17,4 @@ You can attempt to track grail progress for an item by pressing **"Ctrl+Shift+C"
 
 ### Installation
 
+[Download the latest release](https://github.com/MustafaErvaErgul/PD2-Grail-Tracker/releases)
