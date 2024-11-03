@@ -1,7 +1,7 @@
 {
-  "name": "pd2-grail-tracker-utils",
+  "name": "pd2-grail-tracker-data",
   "version": "1.0.0",
-  "description": "PD2 Grail Tracker Utils",
+  "description": "PD2 Grail Tracker Data",
   "main": "main.js",
   "type": "module",
   "scripts": {
