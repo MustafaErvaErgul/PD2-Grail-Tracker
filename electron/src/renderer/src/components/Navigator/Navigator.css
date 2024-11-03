@@ -1,0 +1,47 @@
+.navigator {
+  position: sticky;
+  display: flex;
+  top: 0;
+  left: 0;
+  color: var(--card-text-color);
+  background-color: var(--card-background-color);
+  z-index: 2;
+}
+
+.navigator-button {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+  outline: none;
+  border: none;
+  color: var(--card-text-color);
+  background-color: var(--card-background-color);
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+.navigator-button:hover {
+  color: var(--main-highlight-color);
+  background-color: var(--background-color);
+}
+
+.navigator-button-active {
+  color: var(--main-color);
+  background-color: var(--background-color);
+}
+
+
+/* Checkbox Container */
+.navigator-checkbox-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 8px;
+  gap: 4px;
+}
+
+.navigator-checkbox-label {
+  font-size: 14px;
+  user-select: none;
+}

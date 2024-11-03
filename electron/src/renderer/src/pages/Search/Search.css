@@ -1,0 +1,22 @@
+.search-input-field-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-input-field-label {
+  margin-bottom: 8px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  background-color: var(--card-background-color);
+  color: var(--text-color);
+  outline: none;
+}
+
+.input-field:focus {
+  border-color: var(--main-color);
+}

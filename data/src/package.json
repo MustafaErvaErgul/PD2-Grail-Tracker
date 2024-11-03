@@ -1,0 +1,13 @@
+{
+  "name": "pd2-grail-tracker-utils",
+  "version": "1.0.0",
+  "description": "PD2 Grail Tracker Utils",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,80 @@
+:root {
+  --text-color: #d1d0c5;
+  --background-color: #323437;
+  --background-color-transparent: rgba(50, 52, 55, 0.5);
+  --border-color: #44474B;
+  --card-text-color: #d1d0c5;
+  --card-background-color: #2c2e31;
+  --card-background-highlight-color: #44474B;
+  --main-color: #e2b714;
+  --main-highlight-color: #fffb8c;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  min-height: 100vh;
+  color: var(--text-color);
+  background: var(--background--color);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  color: var(--text-color);
+  background: var(--background-color-transparent);
+  z-index: 1;
+  overflow: hidden;
+}
+
+#content-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  height: 75%;
+  border-radius: 4px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.03), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 2px 6px rgba(0, 0, 0, 0.12);
+  color: var(--text-color);
+  background-color: var(--background-color);
+  z-index: 2;
+  overflow: hidden;
+}
+
+#page-content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 0.5rem 1rem;
+  gap: 16px;
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: var(--background-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--text-color);
+  border-radius: 4px;
+  border: 2px solid var(--background-color);
+}

@@ -1,0 +1,42 @@
+.item-container {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  gap: 8px;
+  padding-left: 8px;
+  cursor: pointer;
+}
+
+.item-name {}
+
+.item-name-found {
+  text-decoration: line-through;
+}
+
+/* ---------- Checkbox Styling ---------- */
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 1px solid var(--text-color);
+  background-color: var(--background-color);
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+input[type="checkbox"]:checked {
+  border-color: #555;
+}
+
+input[type="checkbox"]:checked::after {
+  content: '✔';
+  display: block;
+  color: var(--text-color);
+  font-size: 16px;
+  text-align: center;
+  line-height: 18px;
+}
+
+input[type="checkbox"]:hover {
+  border-color: #555;
+}

@@ -1,0 +1,10 @@
+.unique-item-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.unique-item-list-title {
+  font-size: 18px;
+  color: var(--main-highlight-color);
+}

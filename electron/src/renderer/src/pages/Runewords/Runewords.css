@@ -1,0 +1,11 @@
+.runewords-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15%, 1fr));
+  width: 100%;
+  row-gap: 24px;
+}
+
+.runewords-title {
+  font-size: 18px;
+  color: var(--main-highlight-color);
+}
