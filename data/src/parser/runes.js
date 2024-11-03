@@ -43,9 +43,17 @@ export const parseRunewords = (database) => {
 
     const runewordRunes = runewordRunesArray.join("");
     const runewordRarity = "Runeword"
-    const runewordDatabaseIndex = `${runewordRarity}/${runewordName}`
+    const runewordDatabaseIndex = `${runewordRarity}/${runewordCode}`
+
+    const skipIteration = shouldSkipRuneword(database, runewordCode, runewordName, runewordDisplayName, runewordRarity, runewordDatabaseIndex)
+
+    if (skipIteration) {
+      logWarning(`Skipping iteration for ${runewordCode}`)
+      return
+    }
 
     const runewordGrailEntry = {
+      code: runewordCode,
       name: runewordName,
       displayName: runewordDisplayName,
       databaseIndex: runewordDatabaseIndex,
@@ -55,6 +63,7 @@ export const parseRunewords = (database) => {
     }
 
     const runewordDatabaseIndexEntry = {
+      code: runewordCode,
       name: runewordName,
       displayName: runewordDisplayName,
       runes: runewordRunes,
@@ -65,19 +74,25 @@ export const parseRunewords = (database) => {
     database['grailData'] ??= {}
     database['grailData'][runewordRarity] ??= {}
 
-    database['grailData'][runewordRarity][runewordName] = runewordGrailEntry
-    database['grailData']['databaseIndexes'][runewordName] = runewordDatabaseIndexEntry
-
-    const existingDatabaseIndexArrayEntry = database['grailData']['databaseIndexesArray'].find((databaseIndexArrayEntry) => {
-      return databaseIndexArrayEntry.databaseIndex == runewordDatabaseIndex
-    })
-
-    if (!existingDatabaseIndexArrayEntry) {
-      database['grailData']['databaseIndexesArray'].push(runewordDatabaseIndexEntry)
-      database['grailData']['totalRunewords'] += 1
-    } else {
-      logWarning(`${runewordDatabaseIndex} already exists in databaseIndexesArray`)
-    }
+    database['grailData'][runewordRarity][runewordCode] = runewordGrailEntry
+    database['grailData']['databaseIndexes'][runewordCode] = runewordDatabaseIndexEntry
+    database['grailData']['databaseIndexesArray'].push(runewordDatabaseIndexEntry)
+    database['grailData']['totalRunewords'] += 1
 
   })
+}
+
+const shouldSkipRuneword = (database, runewordCode, runewordName, runewordDisplayName, runewordRarity, runewordDatabaseIndex) => {
+  const existingEntry = database.grailData.databaseIndexesArray.find((databaseIndexArrayEntry) => {
+    return databaseIndexArrayEntry.databaseIndex == runewordDatabaseIndex ||
+      (databaseIndexArrayEntry.code == runewordCode && databaseIndexArrayEntry.rarity == runewordRarity) ||
+      (databaseIndexArrayEntry.name == runewordName && databaseIndexArrayEntry.rarity == runewordRarity) ||
+      (databaseIndexArrayEntry.displayName == runewordDisplayName && databaseIndexArrayEntry.rarity == runewordRarity)
+  })
+
+  if (existingEntry) {
+    return true
+  } else {
+    return false
+  }
 }

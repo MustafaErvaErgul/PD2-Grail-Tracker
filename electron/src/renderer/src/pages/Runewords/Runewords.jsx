@@ -8,6 +8,18 @@ const Runewords = () => {
 
   const runewords = convertObjectToArray(database['Runeword'])
 
+  runewords.sort((a, b) => {
+    const nameA = a.displayName.toLowerCase()
+    const nameB = b.displayName.toLowerCase()
+    if (nameA < nameB) {
+      return -1
+    }
+    if (nameA > nameB) {
+      return 1
+    }
+    return 0
+  })
+
   return (
     <div id="page-content">
       <div className="runewords-title">Runewords</div>

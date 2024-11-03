@@ -2314,9 +2314,10 @@
     "Crescent Moon": {
       "name": "Crescent Moon",
       "displayName": "Crescent Moon",
-      "runes": "ShaelUmTir",
-      "rarity": "Runeword",
-      "databaseIndex": "Runeword/Crescent Moon"
+      "category": "Other",
+      "subCategory": "Amulet",
+      "rarity": "Unique",
+      "databaseIndex": "Unique/Other/Amulet/Crescent Moon"
     },
     "Mara's Kaleidoscope": {
       "name": "Mara's Kaleidoscope",
@@ -2760,10 +2761,11 @@
     },
     "Widowmaker": {
       "name": "Widowmaker",
-      "displayName": "Grief",
-      "runes": "EthTirLoMalRal",
-      "rarity": "Runeword",
-      "databaseIndex": "Runeword/Widowmaker"
+      "displayName": "Widowmaker",
+      "category": "Weapon",
+      "subCategory": "Bow",
+      "rarity": "Unique",
+      "databaseIndex": "Unique/Weapon/Bow/Elite/Widowmaker"
     },
     "Bloodraven's Charge": {
       "name": "Bloodraven's Charge",
@@ -4405,609 +4407,712 @@
       "rarity": "Set",
       "databaseIndex": "Set/McAuley's Folly/McAuley's Superstition"
     },
-    "Ancient's Pledge": {
+    "Runeword1": {
+      "code": "Runeword1",
       "name": "Ancient's Pledge",
       "displayName": "Ancients' Pledge",
       "runes": "RalOrtTal",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Ancient's Pledge"
+      "databaseIndex": "Runeword/Runeword1"
     },
-    "Black": {
+    "Runeword6": {
+      "code": "Runeword6",
       "name": "Black",
       "displayName": "Black",
       "runes": "ThulIoNef",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Black"
+      "databaseIndex": "Runeword/Runeword6"
     },
-    "Fury": {
+    "Runeword44": {
+      "code": "Runeword44",
       "name": "Fury",
       "displayName": "Fury",
       "runes": "JahGulEth",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Fury"
+      "databaseIndex": "Runeword/Runeword44"
     },
-    "Holy Thunder": {
+    "Runeword54": {
+      "code": "Runeword54",
       "name": "Holy Thunder",
       "displayName": "Holy Thunder",
       "runes": "EthRalOrtTal",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Holy Thunder"
+      "databaseIndex": "Runeword/Runeword54"
     },
-    "Honor": {
+    "Runeword55": {
+      "code": "Runeword55",
       "name": "Honor",
       "displayName": "Honor",
       "runes": "AmnElIthTirSol",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Honor"
+      "databaseIndex": "Runeword/Runeword55"
     },
-    "King's Grace": {
+    "Runeword65": {
+      "code": "Runeword65",
       "name": "King's Grace",
       "displayName": "King's Grace",
       "runes": "AmnRalThul",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/King's Grace"
+      "databaseIndex": "Runeword/Runeword65"
     },
-    "Leaf": {
+    "Runeword72": {
+      "code": "Runeword72",
       "name": "Leaf",
       "displayName": "Leaf",
       "runes": "TirRal",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Leaf"
+      "databaseIndex": "Runeword/Runeword72"
     },
-    "Lionheart": {
+    "Runeword74": {
+      "code": "Runeword74",
       "name": "Lionheart",
       "displayName": "Lionheart",
       "runes": "HelLumFal",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Lionheart"
+      "databaseIndex": "Runeword/Runeword74"
     },
-    "Lore": {
+    "Runeword75": {
+      "code": "Runeword75",
       "name": "Lore",
       "displayName": "Lore",
       "runes": "OrtSol",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Lore"
+      "databaseIndex": "Runeword/Runeword75"
     },
-    "Malice": {
+    "Runeword81": {
+      "code": "Runeword81",
       "name": "Malice",
       "displayName": "Malice",
       "runes": "IthElEth",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Malice"
+      "databaseIndex": "Runeword/Runeword81"
     },
-    "Melody": {
+    "Runeword82": {
+      "code": "Runeword82",
       "name": "Melody",
       "displayName": "Melody",
       "runes": "ShaelKoNef",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Melody"
+      "databaseIndex": "Runeword/Runeword82"
     },
-    "Memory": {
+    "Runeword83": {
+      "code": "Runeword83",
       "name": "Memory",
       "displayName": "Memory",
       "runes": "LumIoSolEth",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Memory"
+      "databaseIndex": "Runeword/Runeword83"
     },
-    "Nadir": {
+    "Runeword88": {
+      "code": "Runeword88",
       "name": "Nadir",
       "displayName": "Nadir",
       "runes": "NefTir",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Nadir"
+      "databaseIndex": "Runeword/Runeword88"
     },
-    "Radiance": {
+    "Runeword116": {
+      "code": "Runeword116",
       "name": "Radiance",
       "displayName": "Radiance",
       "runes": "NefSolIth",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Radiance"
+      "databaseIndex": "Runeword/Runeword116"
     },
-    "Rhyme": {
+    "Runeword120": {
+      "code": "Runeword120",
       "name": "Rhyme",
       "displayName": "Rhyme",
       "runes": "ShaelEth",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Rhyme"
+      "databaseIndex": "Runeword/Runeword120"
     },
-    "Silence": {
+    "Runeword126": {
+      "code": "Runeword126",
       "name": "Silence",
       "displayName": "Silence",
       "runes": "DolEldHelIstTirVex",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Silence"
+      "databaseIndex": "Runeword/Runeword126"
     },
-    "Smoke": {
+    "Runeword128": {
+      "code": "Runeword128",
       "name": "Smoke",
       "displayName": "Smoke",
       "runes": "NefLum",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Smoke"
+      "databaseIndex": "Runeword/Runeword128"
     },
-    "Stealth": {
+    "Runeword133": {
+      "code": "Runeword133",
       "name": "Stealth",
       "displayName": "Stealth",
       "runes": "TalEth",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Stealth"
+      "databaseIndex": "Runeword/Runeword133"
     },
-    "Steel": {
+    "Runeword134": {
+      "code": "Runeword134",
       "name": "Steel",
       "displayName": "Steel",
       "runes": "TirEl",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Steel"
+      "databaseIndex": "Runeword/Runeword134"
     },
-    "Strength": {
+    "Runeword139": {
+      "code": "Runeword139",
       "name": "Strength",
       "displayName": "Strength",
       "runes": "AmnTir",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Strength"
+      "databaseIndex": "Runeword/Runeword139"
     },
-    "Venom": {
+    "Runeword154": {
+      "code": "Runeword154",
       "name": "Venom",
       "displayName": "Venom",
       "runes": "TalDolMal",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Venom"
+      "databaseIndex": "Runeword/Runeword154"
     },
-    "Wealth": {
+    "Runeword160": {
+      "code": "Runeword160",
       "name": "Wealth",
       "displayName": "Wealth",
       "runes": "LemKoTir",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Wealth"
+      "databaseIndex": "Runeword/Runeword160"
     },
-    "White": {
+    "Runeword162": {
+      "code": "Runeword162",
       "name": "White",
       "displayName": "White",
       "runes": "DolIo",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/White"
+      "databaseIndex": "Runeword/Runeword162"
     },
-    "Zephyr": {
+    "Runeword170": {
+      "code": "Runeword170",
       "name": "Zephyr",
       "displayName": "Zephyr",
       "runes": "OrtEth",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Zephyr"
+      "databaseIndex": "Runeword/Runeword170"
     },
-    "Bound by Duty": {
+    "Runeword14": {
+      "code": "Runeword14",
       "name": "Bound by Duty",
       "displayName": "Chains of Honor",
       "runes": "DolUmBerIst",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Bound by Duty"
+      "databaseIndex": "Runeword/Runeword14"
     },
-    "Bramble": {
+    "Runeword9": {
+      "code": "Runeword9",
       "name": "Bramble",
       "displayName": "Bramble",
       "runes": "RalOhmSurEth",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Bramble"
+      "databaseIndex": "Runeword/Runeword9"
     },
-    "Breath of the Dying": {
+    "Runeword11": {
+      "code": "Runeword11",
       "name": "Breath of the Dying",
       "displayName": "Breath of the Dying",
       "runes": "VexHelElEldZodEth",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Breath of the Dying"
+      "databaseIndex": "Runeword/Runeword11"
     },
-    "Call to Arms": {
+    "Runeword13": {
+      "code": "Runeword13",
       "name": "Call to Arms",
       "displayName": "Call to Arms",
       "runes": "AmnRalMalIstOhm",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Call to Arms"
+      "databaseIndex": "Runeword/Runeword13"
     },
-    "Delirium": {
+    "Runeword17": {
+      "code": "Runeword17",
+      "name": "Crescent Moon",
+      "displayName": "Crescent Moon",
+      "runes": "ShaelUmTir",
+      "rarity": "Runeword",
+      "databaseIndex": "Runeword/Runeword17"
+    },
+    "Runeword22": {
+      "code": "Runeword22",
       "name": "Delirium",
       "displayName": "Delirium",
       "runes": "LemIstIo",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Delirium"
+      "databaseIndex": "Runeword/Runeword22"
     },
-    "Doomsayer": {
+    "Runeword26": {
+      "code": "Runeword26",
       "name": "Doomsayer",
       "displayName": "Doom",
       "runes": "HelOhmUmLoCham",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Doomsayer"
+      "databaseIndex": "Runeword/Runeword26"
     },
-    "Enigma": {
+    "Runeword33": {
+      "code": "Runeword33",
       "name": "Enigma",
       "displayName": "Enigma",
       "runes": "JahIthBer",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Enigma"
+      "databaseIndex": "Runeword/Runeword33"
     },
-    "Stone": {
+    "Runeword137": {
+      "code": "Runeword137",
       "name": "Stone",
       "displayName": "Stone",
       "runes": "ShaelUmPulLum",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Stone"
+      "databaseIndex": "Runeword/Runeword137"
     },
-    "Eternity": {
+    "Runeword36": {
+      "code": "Runeword36",
       "name": "Eternity",
       "displayName": "Eternity",
       "runes": "AmnBerIstSolSur",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Eternity"
+      "databaseIndex": "Runeword/Runeword36"
     },
-    "Exile's Path": {
+    "Runeword37": {
+      "code": "Runeword37",
       "name": "Exile's Path",
       "displayName": "Exile",
       "runes": "VexOhmIstDol",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Exile's Path"
+      "databaseIndex": "Runeword/Runeword37"
     },
-    "Famine": {
+    "Runeword39": {
+      "code": "Runeword39",
       "name": "Famine",
       "displayName": "Famine",
       "runes": "FalOhmOrtJah",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Famine"
+      "databaseIndex": "Runeword/Runeword39"
     },
-    "Hand of Justice": {
+    "Runeword48": {
+      "code": "Runeword48",
       "name": "Hand of Justice",
       "displayName": "Hand of Justice",
       "runes": "SurChamAmnLo",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Hand of Justice"
+      "databaseIndex": "Runeword/Runeword48"
     },
-    "Heart of the Oak": {
+    "Runeword51": {
+      "code": "Runeword51",
       "name": "Heart of the Oak",
       "displayName": "Heart of the Oak",
       "runes": "KoVexPulThul",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Heart of the Oak"
+      "databaseIndex": "Runeword/Runeword51"
     },
-    "Kingslayer": {
+    "Runeword66": {
+      "code": "Runeword66",
       "name": "Kingslayer",
       "displayName": "Kingslayer",
       "runes": "MalUmGulFal",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Kingslayer"
+      "databaseIndex": "Runeword/Runeword66"
     },
-    "Passion": {
+    "Runeword95": {
+      "code": "Runeword95",
       "name": "Passion",
       "displayName": "Passion",
       "runes": "DolOrtEldLem",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Passion"
+      "databaseIndex": "Runeword/Runeword95"
     },
-    "Gloom": {
+    "Runeword45": {
+      "code": "Runeword45",
       "name": "Gloom",
       "displayName": "Gloom",
       "runes": "FalUmPul",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Gloom"
+      "databaseIndex": "Runeword/Runeword45"
     },
-    "Sanctuary": {
+    "Runeword122": {
+      "code": "Runeword122",
       "name": "Sanctuary",
       "displayName": "Sanctuary",
       "runes": "KoKoMal",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Sanctuary"
+      "databaseIndex": "Runeword/Runeword122"
     },
-    "Chaos": {
+    "Runeword16": {
+      "code": "Runeword16",
       "name": "Chaos",
       "displayName": "Chaos",
       "runes": "FalOhmUm",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Chaos"
+      "databaseIndex": "Runeword/Runeword16"
     },
-    "The Beast": {
+    "Runeword4": {
+      "code": "Runeword4",
       "name": "The Beast",
       "displayName": "Beast",
       "runes": "BerTirUmMalLum",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/The Beast"
+      "databaseIndex": "Runeword/Runeword4"
     },
-    "Spirit": {
+    "Runeword130": {
+      "code": "Runeword130",
       "name": "Spirit",
       "displayName": "Spirit",
       "runes": "TalThulOrtAmn",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Spirit"
+      "databaseIndex": "Runeword/Runeword130"
     },
-    "Splendor": {
+    "Runeword131": {
+      "code": "Runeword131",
       "name": "Splendor",
       "displayName": "Splendor",
       "runes": "EthLum",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Splendor"
+      "databaseIndex": "Runeword/Runeword131"
     },
-    "Duress": {
+    "Runeword30": {
+      "code": "Runeword30",
       "name": "Duress",
       "displayName": "Duress",
       "runes": "ShaelUmThul",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Duress"
+      "databaseIndex": "Runeword/Runeword30"
     },
-    "Oath": {
+    "Runeword91": {
+      "code": "Runeword91",
       "name": "Oath",
       "displayName": "Oath",
       "runes": "ShaelPulMalLum",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Oath"
+      "databaseIndex": "Runeword/Runeword91"
     },
-    "Obedience": {
+    "Runeword92": {
+      "code": "Runeword92",
       "name": "Obedience",
       "displayName": "Obedience",
       "runes": "HelKoThulEthFal",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Obedience"
+      "databaseIndex": "Runeword/Runeword92"
     },
-    "Obsession": {
+    "Runeword94": {
+      "code": "Runeword94",
       "name": "Obsession",
       "displayName": "Obsession",
       "runes": "ZodIstLemLumIoNef",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Obsession"
+      "databaseIndex": "Runeword/Runeword94"
     },
-    "Harmony": {
+    "Runeword49": {
+      "code": "Runeword49",
       "name": "Harmony",
       "displayName": "Harmony",
       "runes": "TirIthSolKo",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Harmony"
+      "databaseIndex": "Runeword/Runeword49"
     },
-    "Flickering Flame": {
+    "Runeword40": {
+      "code": "Runeword40",
       "name": "Flickering Flame",
       "displayName": "Flickering Flame",
       "runes": "NefPulVex",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Flickering Flame"
+      "databaseIndex": "Runeword/Runeword40"
     },
-    "Fortitude": {
+    "Runeword41": {
+      "code": "Runeword41",
       "name": "Fortitude",
       "displayName": "Fortitude",
       "runes": "ElSolDolLo",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Fortitude"
+      "databaseIndex": "Runeword/Runeword41"
     },
-    "Faith": {
+    "Runeword38": {
+      "code": "Runeword38",
       "name": "Faith",
       "displayName": "Faith",
       "runes": "OhmJahLemEld",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Faith"
+      "databaseIndex": "Runeword/Runeword38"
     },
-    "Bone": {
+    "Runeword8": {
+      "code": "Runeword8",
       "name": "Bone",
       "displayName": "Bone",
       "runes": "SolUmUm",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Bone"
+      "databaseIndex": "Runeword/Runeword8"
     },
-    "Brand": {
+    "Runeword10": {
+      "code": "Runeword10",
       "name": "Brand",
       "displayName": "Brand",
       "runes": "JahLoMalGul",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Brand"
+      "databaseIndex": "Runeword/Runeword10"
     },
-    "Death": {
+    "Runeword20": {
+      "code": "Runeword20",
       "name": "Death",
       "displayName": "Death",
       "runes": "HelElVexOrtGul",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Death"
+      "databaseIndex": "Runeword/Runeword20"
     },
-    "Destruction": {
+    "Runeword25": {
+      "code": "Runeword25",
       "name": "Destruction",
       "displayName": "Destruction",
       "runes": "VexLoBerJahKo",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Destruction"
+      "databaseIndex": "Runeword/Runeword25"
     },
-    "Dragon": {
+    "Runeword27": {
+      "code": "Runeword27",
       "name": "Dragon",
       "displayName": "Dragon",
       "runes": "SurLoSol",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Dragon"
+      "databaseIndex": "Runeword/Runeword27"
     },
-    "Dream": {
+    "Runeword29": {
+      "code": "Runeword29",
       "name": "Dream",
       "displayName": "Dream",
       "runes": "IoJahPul",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Dream"
+      "databaseIndex": "Runeword/Runeword29"
     },
-    "Edge": {
+    "Runeword31": {
+      "code": "Runeword31",
       "name": "Edge",
       "displayName": "Edge",
       "runes": "TirTalAmn",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Edge"
+      "databaseIndex": "Runeword/Runeword31"
     },
-    "Enlightenment": {
+    "Runeword34": {
+      "code": "Runeword34",
       "name": "Enlightenment",
       "displayName": "Enlightenment",
       "runes": "PulRalSol",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Enlightenment"
+      "databaseIndex": "Runeword/Runeword34"
     },
-    "Ice": {
+    "Runeword59": {
+      "code": "Runeword59",
       "name": "Ice",
       "displayName": "Ice",
       "runes": "AmnShaelJahLo",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Ice"
+      "databaseIndex": "Runeword/Runeword59"
     },
-    "Infinity": {
+    "Runeword60": {
+      "code": "Runeword60",
       "name": "Infinity",
       "displayName": "Infinity",
       "runes": "BerMalBerIst",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Infinity"
+      "databaseIndex": "Runeword/Runeword60"
     },
-    "Innocence": {
+    "Runeword61": {
+      "code": "Runeword61",
       "name": "Innocence",
       "displayName": "Innocence",
       "runes": "GulLemZodHel",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Innocence"
+      "databaseIndex": "Runeword/Runeword61"
     },
-    "Insight": {
+    "Runeword62": {
+      "code": "Runeword62",
       "name": "Insight",
       "displayName": "Insight",
       "runes": "RalTirTalSol",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Insight"
+      "databaseIndex": "Runeword/Runeword62"
     },
-    "Last Wish": {
+    "Runeword69": {
+      "code": "Runeword69",
       "name": "Last Wish",
       "displayName": "Last Wish",
       "runes": "JahMalJahSurJahBer",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Last Wish"
+      "databaseIndex": "Runeword/Runeword69"
     },
-    "Lawbringer": {
+    "Runeword71": {
+      "code": "Runeword71",
       "name": "Lawbringer",
       "displayName": "Lawbringer",
       "runes": "AmnLemKo",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Lawbringer"
+      "databaseIndex": "Runeword/Runeword71"
     },
-    "Mist": {
+    "Runeword84": {
+      "code": "Runeword84",
       "name": "Mist",
       "displayName": "Mist",
       "runes": "ChamShaelGulThulIth",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Mist"
+      "databaseIndex": "Runeword/Runeword84"
     },
-    "Myth": {
+    "Runeword87": {
+      "code": "Runeword87",
       "name": "Myth",
       "displayName": "Myth",
       "runes": "HelAmnNef",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Myth"
+      "databaseIndex": "Runeword/Runeword87"
     },
-    "Pattern": {
+    "Runeword97": {
+      "code": "Runeword97",
       "name": "Pattern",
       "displayName": "Pattern",
       "runes": "TalOrtTir",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Pattern"
+      "databaseIndex": "Runeword/Runeword97"
     },
-    "Peace": {
+    "Runeword98": {
+      "code": "Runeword98",
       "name": "Peace",
       "displayName": "Peace",
       "runes": "ShaelThulAmn",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Peace"
+      "databaseIndex": "Runeword/Runeword98"
     },
-    "Phoenix": {
+    "Runeword103": {
+      "code": "Runeword103",
       "name": "Phoenix",
       "displayName": "Phoenix",
       "runes": "VexVexLoJah",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Phoenix"
+      "databaseIndex": "Runeword/Runeword103"
     },
-    "Plague": {
+    "Runeword106": {
+      "code": "Runeword106",
       "name": "Plague",
       "displayName": "Plague",
       "runes": "ChamFalUm",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Plague"
+      "databaseIndex": "Runeword/Runeword106"
     },
-    "Pride": {
+    "Runeword109": {
+      "code": "Runeword109",
       "name": "Pride",
       "displayName": "Pride",
       "runes": "ChamSurIoLo",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Pride"
+      "databaseIndex": "Runeword/Runeword109"
     },
-    "Principle": {
+    "Runeword110": {
+      "code": "Runeword110",
       "name": "Principle",
       "displayName": "Principle",
       "runes": "RalGulEld",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Principle"
+      "databaseIndex": "Runeword/Runeword110"
     },
-    "Prudence": {
+    "Runeword112": {
+      "code": "Runeword112",
       "name": "Prudence",
       "displayName": "Prudence",
       "runes": "MalTir",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Prudence"
+      "databaseIndex": "Runeword/Runeword112"
     },
-    "Rain": {
+    "Runeword117": {
+      "code": "Runeword117",
       "name": "Rain",
       "displayName": "Rain",
       "runes": "OrtMalIth",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Rain"
+      "databaseIndex": "Runeword/Runeword117"
     },
-    "Rift": {
+    "Runeword121": {
+      "code": "Runeword121",
       "name": "Rift",
       "displayName": "Rift",
       "runes": "HelKoLemGul",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Rift"
+      "databaseIndex": "Runeword/Runeword121"
     },
-    "Treachery": {
+    "Runeword148": {
+      "code": "Runeword148",
       "name": "Treachery",
       "displayName": "Treachery",
       "runes": "ShaelThulLem",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Treachery"
+      "databaseIndex": "Runeword/Runeword148"
     },
-    "Unbending Will": {
+    "Runeword151": {
+      "code": "Runeword151",
       "name": "Unbending Will",
       "displayName": "Unbending Will",
       "runes": "FalIoIthEldElHel",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Unbending Will"
+      "databaseIndex": "Runeword/Runeword151"
     },
-    "Wind": {
+    "Runeword47": {
+      "code": "Runeword47",
+      "name": "Widowmaker",
+      "displayName": "Grief",
+      "runes": "EthTirLoMalRal",
+      "rarity": "Runeword",
+      "databaseIndex": "Runeword/Runeword47"
+    },
+    "Runeword163": {
+      "code": "Runeword163",
       "name": "Wind",
       "displayName": "Wind",
       "runes": "SurEl",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Wind"
+      "databaseIndex": "Runeword/Runeword163"
     },
-    "Winter": {
+    "Runeword99": {
+      "code": "Runeword99",
       "name": "Winter",
       "displayName": "Voice of Reason",
       "runes": "LemKoElEld",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Winter"
+      "databaseIndex": "Runeword/Runeword99"
     },
-    "Wisdom": {
+    "Runeword165": {
+      "code": "Runeword165",
       "name": "Wisdom",
       "displayName": "Wisdom",
       "runes": "PulIthEld",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Wisdom"
+      "databaseIndex": "Runeword/Runeword165"
     },
-    "Wrath": {
+    "Runeword168": {
+      "code": "Runeword168",
       "name": "Wrath",
       "displayName": "Wrath",
       "runes": "PulLumBerMal",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Wrath"
+      "databaseIndex": "Runeword/Runeword168"
     },
     "Ferocity": {
+      "code": "Ferocity",
       "name": "Ferocity",
       "displayName": "Ferocity",
       "runes": "ZodChamShael",
       "rarity": "Runeword",
       "databaseIndex": "Runeword/Ferocity"
     },
-    "Dominion": {
+    "Runeword171": {
+      "code": "Runeword171",
       "name": "Dominion",
       "displayName": "Dominion",
       "runes": "ChamOhm",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Dominion"
+      "databaseIndex": "Runeword/Runeword171"
     },
     "Zenith": {
+      "code": "Zenith",
       "name": "Zenith",
       "displayName": "Zenith",
       "runes": "JahZodOrtThulRal",
@@ -5015,6 +5120,7 @@
       "databaseIndex": "Runeword/Zenith"
     },
     "Rampage": {
+      "code": "Rampage",
       "name": "Rampage",
       "displayName": "Rampage",
       "runes": "ShaelElIthEth",
@@ -5022,6 +5128,7 @@
       "databaseIndex": "Runeword/Rampage"
     },
     "Neophyte": {
+      "code": "Neophyte",
       "name": "Neophyte",
       "displayName": "Neophyte",
       "runes": "ThulTir",
@@ -5029,6 +5136,7 @@
       "databaseIndex": "Runeword/Neophyte"
     },
     "Shattered Wall": {
+      "code": "Shattered Wall",
       "name": "Shattered Wall",
       "displayName": "Shattered Wall",
       "runes": "ZodJahRalCham",
@@ -5036,6 +5144,7 @@
       "databaseIndex": "Runeword/Shattered Wall"
     },
     "Asylum": {
+      "code": "Asylum",
       "name": "Asylum",
       "displayName": "Asylum",
       "runes": "GulChamHelJahDolUm",
@@ -5043,6 +5152,7 @@
       "databaseIndex": "Runeword/Asylum"
     },
     "Hustle": {
+      "code": "Hustle",
       "name": "Hustle",
       "displayName": "Hustle",
       "runes": "ShaelKoEld",
@@ -5050,6 +5160,7 @@
       "databaseIndex": "Runeword/Hustle"
     },
     "Purity": {
+      "code": "Purity",
       "name": "Purity",
       "displayName": "Purity",
       "runes": "AmnEthThul",
@@ -5057,6 +5168,7 @@
       "databaseIndex": "Runeword/Purity"
     },
     "Rapture": {
+      "code": "Rapture",
       "name": "Rapture",
       "displayName": "Rapture",
       "runes": "VexJahLoRalKoMal",
@@ -9473,608 +9585,695 @@
       "databaseIndex": "Set/McAuley's Folly/McAuley's Superstition"
     },
     {
+      "code": "Runeword1",
       "name": "Ancient's Pledge",
       "displayName": "Ancients' Pledge",
       "runes": "RalOrtTal",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Ancient's Pledge"
+      "databaseIndex": "Runeword/Runeword1"
     },
     {
+      "code": "Runeword6",
       "name": "Black",
       "displayName": "Black",
       "runes": "ThulIoNef",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Black"
+      "databaseIndex": "Runeword/Runeword6"
     },
     {
+      "code": "Runeword44",
       "name": "Fury",
       "displayName": "Fury",
       "runes": "JahGulEth",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Fury"
+      "databaseIndex": "Runeword/Runeword44"
     },
     {
+      "code": "Runeword54",
       "name": "Holy Thunder",
       "displayName": "Holy Thunder",
       "runes": "EthRalOrtTal",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Holy Thunder"
+      "databaseIndex": "Runeword/Runeword54"
     },
     {
+      "code": "Runeword55",
       "name": "Honor",
       "displayName": "Honor",
       "runes": "AmnElIthTirSol",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Honor"
+      "databaseIndex": "Runeword/Runeword55"
     },
     {
+      "code": "Runeword65",
       "name": "King's Grace",
       "displayName": "King's Grace",
       "runes": "AmnRalThul",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/King's Grace"
+      "databaseIndex": "Runeword/Runeword65"
     },
     {
+      "code": "Runeword72",
       "name": "Leaf",
       "displayName": "Leaf",
       "runes": "TirRal",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Leaf"
+      "databaseIndex": "Runeword/Runeword72"
     },
     {
+      "code": "Runeword74",
       "name": "Lionheart",
       "displayName": "Lionheart",
       "runes": "HelLumFal",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Lionheart"
+      "databaseIndex": "Runeword/Runeword74"
     },
     {
+      "code": "Runeword75",
       "name": "Lore",
       "displayName": "Lore",
       "runes": "OrtSol",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Lore"
+      "databaseIndex": "Runeword/Runeword75"
     },
     {
+      "code": "Runeword81",
       "name": "Malice",
       "displayName": "Malice",
       "runes": "IthElEth",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Malice"
+      "databaseIndex": "Runeword/Runeword81"
     },
     {
+      "code": "Runeword82",
       "name": "Melody",
       "displayName": "Melody",
       "runes": "ShaelKoNef",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Melody"
+      "databaseIndex": "Runeword/Runeword82"
     },
     {
+      "code": "Runeword83",
       "name": "Memory",
       "displayName": "Memory",
       "runes": "LumIoSolEth",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Memory"
+      "databaseIndex": "Runeword/Runeword83"
     },
     {
+      "code": "Runeword88",
       "name": "Nadir",
       "displayName": "Nadir",
       "runes": "NefTir",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Nadir"
+      "databaseIndex": "Runeword/Runeword88"
     },
     {
+      "code": "Runeword116",
       "name": "Radiance",
       "displayName": "Radiance",
       "runes": "NefSolIth",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Radiance"
+      "databaseIndex": "Runeword/Runeword116"
     },
     {
+      "code": "Runeword120",
       "name": "Rhyme",
       "displayName": "Rhyme",
       "runes": "ShaelEth",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Rhyme"
+      "databaseIndex": "Runeword/Runeword120"
     },
     {
+      "code": "Runeword126",
       "name": "Silence",
       "displayName": "Silence",
       "runes": "DolEldHelIstTirVex",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Silence"
+      "databaseIndex": "Runeword/Runeword126"
     },
     {
+      "code": "Runeword128",
       "name": "Smoke",
       "displayName": "Smoke",
       "runes": "NefLum",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Smoke"
+      "databaseIndex": "Runeword/Runeword128"
     },
     {
+      "code": "Runeword133",
       "name": "Stealth",
       "displayName": "Stealth",
       "runes": "TalEth",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Stealth"
+      "databaseIndex": "Runeword/Runeword133"
     },
     {
+      "code": "Runeword134",
       "name": "Steel",
       "displayName": "Steel",
       "runes": "TirEl",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Steel"
+      "databaseIndex": "Runeword/Runeword134"
     },
     {
+      "code": "Runeword139",
       "name": "Strength",
       "displayName": "Strength",
       "runes": "AmnTir",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Strength"
+      "databaseIndex": "Runeword/Runeword139"
     },
     {
+      "code": "Runeword154",
       "name": "Venom",
       "displayName": "Venom",
       "runes": "TalDolMal",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Venom"
+      "databaseIndex": "Runeword/Runeword154"
     },
     {
+      "code": "Runeword160",
       "name": "Wealth",
       "displayName": "Wealth",
       "runes": "LemKoTir",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Wealth"
+      "databaseIndex": "Runeword/Runeword160"
     },
     {
+      "code": "Runeword162",
       "name": "White",
       "displayName": "White",
       "runes": "DolIo",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/White"
+      "databaseIndex": "Runeword/Runeword162"
     },
     {
+      "code": "Runeword170",
       "name": "Zephyr",
       "displayName": "Zephyr",
       "runes": "OrtEth",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Zephyr"
+      "databaseIndex": "Runeword/Runeword170"
     },
     {
+      "code": "Runeword14",
       "name": "Bound by Duty",
       "displayName": "Chains of Honor",
       "runes": "DolUmBerIst",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Bound by Duty"
+      "databaseIndex": "Runeword/Runeword14"
     },
     {
+      "code": "Runeword9",
       "name": "Bramble",
       "displayName": "Bramble",
       "runes": "RalOhmSurEth",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Bramble"
+      "databaseIndex": "Runeword/Runeword9"
     },
     {
+      "code": "Runeword11",
       "name": "Breath of the Dying",
       "displayName": "Breath of the Dying",
       "runes": "VexHelElEldZodEth",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Breath of the Dying"
+      "databaseIndex": "Runeword/Runeword11"
     },
     {
+      "code": "Runeword13",
       "name": "Call to Arms",
       "displayName": "Call to Arms",
       "runes": "AmnRalMalIstOhm",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Call to Arms"
+      "databaseIndex": "Runeword/Runeword13"
     },
     {
+      "code": "Runeword17",
       "name": "Crescent Moon",
       "displayName": "Crescent Moon",
       "runes": "ShaelUmTir",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Crescent Moon"
+      "databaseIndex": "Runeword/Runeword17"
     },
     {
+      "code": "Runeword22",
       "name": "Delirium",
       "displayName": "Delirium",
       "runes": "LemIstIo",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Delirium"
+      "databaseIndex": "Runeword/Runeword22"
     },
     {
+      "code": "Runeword26",
       "name": "Doomsayer",
       "displayName": "Doom",
       "runes": "HelOhmUmLoCham",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Doomsayer"
+      "databaseIndex": "Runeword/Runeword26"
     },
     {
+      "code": "Runeword33",
       "name": "Enigma",
       "displayName": "Enigma",
       "runes": "JahIthBer",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Enigma"
+      "databaseIndex": "Runeword/Runeword33"
     },
     {
+      "code": "Runeword137",
       "name": "Stone",
       "displayName": "Stone",
       "runes": "ShaelUmPulLum",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Stone"
+      "databaseIndex": "Runeword/Runeword137"
     },
     {
+      "code": "Runeword36",
       "name": "Eternity",
       "displayName": "Eternity",
       "runes": "AmnBerIstSolSur",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Eternity"
+      "databaseIndex": "Runeword/Runeword36"
     },
     {
+      "code": "Runeword37",
       "name": "Exile's Path",
       "displayName": "Exile",
       "runes": "VexOhmIstDol",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Exile's Path"
+      "databaseIndex": "Runeword/Runeword37"
     },
     {
+      "code": "Runeword39",
       "name": "Famine",
       "displayName": "Famine",
       "runes": "FalOhmOrtJah",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Famine"
+      "databaseIndex": "Runeword/Runeword39"
     },
     {
+      "code": "Runeword48",
       "name": "Hand of Justice",
       "displayName": "Hand of Justice",
       "runes": "SurChamAmnLo",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Hand of Justice"
+      "databaseIndex": "Runeword/Runeword48"
     },
     {
+      "code": "Runeword51",
       "name": "Heart of the Oak",
       "displayName": "Heart of the Oak",
       "runes": "KoVexPulThul",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Heart of the Oak"
+      "databaseIndex": "Runeword/Runeword51"
     },
     {
+      "code": "Runeword66",
       "name": "Kingslayer",
       "displayName": "Kingslayer",
       "runes": "MalUmGulFal",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Kingslayer"
+      "databaseIndex": "Runeword/Runeword66"
     },
     {
+      "code": "Runeword95",
       "name": "Passion",
       "displayName": "Passion",
       "runes": "DolOrtEldLem",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Passion"
+      "databaseIndex": "Runeword/Runeword95"
     },
     {
+      "code": "Runeword45",
       "name": "Gloom",
       "displayName": "Gloom",
       "runes": "FalUmPul",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Gloom"
+      "databaseIndex": "Runeword/Runeword45"
     },
     {
+      "code": "Runeword122",
       "name": "Sanctuary",
       "displayName": "Sanctuary",
       "runes": "KoKoMal",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Sanctuary"
+      "databaseIndex": "Runeword/Runeword122"
     },
     {
+      "code": "Runeword16",
       "name": "Chaos",
       "displayName": "Chaos",
       "runes": "FalOhmUm",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Chaos"
+      "databaseIndex": "Runeword/Runeword16"
     },
     {
+      "code": "Runeword4",
       "name": "The Beast",
       "displayName": "Beast",
       "runes": "BerTirUmMalLum",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/The Beast"
+      "databaseIndex": "Runeword/Runeword4"
     },
     {
+      "code": "Runeword130",
       "name": "Spirit",
       "displayName": "Spirit",
       "runes": "TalThulOrtAmn",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Spirit"
+      "databaseIndex": "Runeword/Runeword130"
     },
     {
+      "code": "Runeword131",
       "name": "Splendor",
       "displayName": "Splendor",
       "runes": "EthLum",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Splendor"
+      "databaseIndex": "Runeword/Runeword131"
     },
     {
+      "code": "Runeword30",
       "name": "Duress",
       "displayName": "Duress",
       "runes": "ShaelUmThul",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Duress"
+      "databaseIndex": "Runeword/Runeword30"
     },
     {
+      "code": "Runeword91",
       "name": "Oath",
       "displayName": "Oath",
       "runes": "ShaelPulMalLum",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Oath"
+      "databaseIndex": "Runeword/Runeword91"
     },
     {
+      "code": "Runeword92",
       "name": "Obedience",
       "displayName": "Obedience",
       "runes": "HelKoThulEthFal",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Obedience"
+      "databaseIndex": "Runeword/Runeword92"
     },
     {
+      "code": "Runeword94",
       "name": "Obsession",
       "displayName": "Obsession",
       "runes": "ZodIstLemLumIoNef",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Obsession"
+      "databaseIndex": "Runeword/Runeword94"
     },
     {
+      "code": "Runeword49",
       "name": "Harmony",
       "displayName": "Harmony",
       "runes": "TirIthSolKo",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Harmony"
+      "databaseIndex": "Runeword/Runeword49"
     },
     {
+      "code": "Runeword40",
       "name": "Flickering Flame",
       "displayName": "Flickering Flame",
       "runes": "NefPulVex",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Flickering Flame"
+      "databaseIndex": "Runeword/Runeword40"
     },
     {
+      "code": "Runeword41",
       "name": "Fortitude",
       "displayName": "Fortitude",
       "runes": "ElSolDolLo",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Fortitude"
+      "databaseIndex": "Runeword/Runeword41"
     },
     {
+      "code": "Runeword38",
       "name": "Faith",
       "displayName": "Faith",
       "runes": "OhmJahLemEld",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Faith"
+      "databaseIndex": "Runeword/Runeword38"
     },
     {
+      "code": "Runeword8",
       "name": "Bone",
       "displayName": "Bone",
       "runes": "SolUmUm",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Bone"
+      "databaseIndex": "Runeword/Runeword8"
     },
     {
+      "code": "Runeword10",
       "name": "Brand",
       "displayName": "Brand",
       "runes": "JahLoMalGul",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Brand"
+      "databaseIndex": "Runeword/Runeword10"
     },
     {
+      "code": "Runeword20",
       "name": "Death",
       "displayName": "Death",
       "runes": "HelElVexOrtGul",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Death"
+      "databaseIndex": "Runeword/Runeword20"
     },
     {
+      "code": "Runeword25",
       "name": "Destruction",
       "displayName": "Destruction",
       "runes": "VexLoBerJahKo",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Destruction"
+      "databaseIndex": "Runeword/Runeword25"
     },
     {
+      "code": "Runeword27",
       "name": "Dragon",
       "displayName": "Dragon",
       "runes": "SurLoSol",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Dragon"
+      "databaseIndex": "Runeword/Runeword27"
     },
     {
+      "code": "Runeword29",
       "name": "Dream",
       "displayName": "Dream",
       "runes": "IoJahPul",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Dream"
+      "databaseIndex": "Runeword/Runeword29"
     },
     {
+      "code": "Runeword31",
       "name": "Edge",
       "displayName": "Edge",
       "runes": "TirTalAmn",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Edge"
+      "databaseIndex": "Runeword/Runeword31"
     },
     {
+      "code": "Runeword34",
       "name": "Enlightenment",
       "displayName": "Enlightenment",
       "runes": "PulRalSol",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Enlightenment"
+      "databaseIndex": "Runeword/Runeword34"
     },
     {
+      "code": "Runeword59",
       "name": "Ice",
       "displayName": "Ice",
       "runes": "AmnShaelJahLo",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Ice"
+      "databaseIndex": "Runeword/Runeword59"
     },
     {
+      "code": "Runeword60",
       "name": "Infinity",
       "displayName": "Infinity",
       "runes": "BerMalBerIst",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Infinity"
+      "databaseIndex": "Runeword/Runeword60"
     },
     {
+      "code": "Runeword61",
       "name": "Innocence",
       "displayName": "Innocence",
       "runes": "GulLemZodHel",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Innocence"
+      "databaseIndex": "Runeword/Runeword61"
     },
     {
+      "code": "Runeword62",
       "name": "Insight",
       "displayName": "Insight",
       "runes": "RalTirTalSol",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Insight"
+      "databaseIndex": "Runeword/Runeword62"
     },
     {
+      "code": "Runeword69",
       "name": "Last Wish",
       "displayName": "Last Wish",
       "runes": "JahMalJahSurJahBer",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Last Wish"
+      "databaseIndex": "Runeword/Runeword69"
     },
     {
+      "code": "Runeword71",
       "name": "Lawbringer",
       "displayName": "Lawbringer",
       "runes": "AmnLemKo",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Lawbringer"
+      "databaseIndex": "Runeword/Runeword71"
     },
     {
+      "code": "Runeword84",
       "name": "Mist",
       "displayName": "Mist",
       "runes": "ChamShaelGulThulIth",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Mist"
+      "databaseIndex": "Runeword/Runeword84"
     },
     {
+      "code": "Runeword87",
       "name": "Myth",
       "displayName": "Myth",
       "runes": "HelAmnNef",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Myth"
+      "databaseIndex": "Runeword/Runeword87"
     },
     {
+      "code": "Runeword97",
       "name": "Pattern",
       "displayName": "Pattern",
       "runes": "TalOrtTir",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Pattern"
+      "databaseIndex": "Runeword/Runeword97"
     },
     {
+      "code": "Runeword98",
       "name": "Peace",
       "displayName": "Peace",
       "runes": "ShaelThulAmn",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Peace"
+      "databaseIndex": "Runeword/Runeword98"
     },
     {
+      "code": "Runeword103",
       "name": "Phoenix",
       "displayName": "Phoenix",
       "runes": "VexVexLoJah",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Phoenix"
+      "databaseIndex": "Runeword/Runeword103"
     },
     {
+      "code": "Runeword106",
       "name": "Plague",
       "displayName": "Plague",
       "runes": "ChamFalUm",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Plague"
+      "databaseIndex": "Runeword/Runeword106"
     },
     {
+      "code": "Runeword109",
       "name": "Pride",
       "displayName": "Pride",
       "runes": "ChamSurIoLo",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Pride"
+      "databaseIndex": "Runeword/Runeword109"
     },
     {
+      "code": "Runeword110",
       "name": "Principle",
       "displayName": "Principle",
       "runes": "RalGulEld",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Principle"
+      "databaseIndex": "Runeword/Runeword110"
     },
     {
+      "code": "Runeword112",
       "name": "Prudence",
       "displayName": "Prudence",
       "runes": "MalTir",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Prudence"
+      "databaseIndex": "Runeword/Runeword112"
     },
     {
+      "code": "Runeword117",
       "name": "Rain",
       "displayName": "Rain",
       "runes": "OrtMalIth",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Rain"
+      "databaseIndex": "Runeword/Runeword117"
     },
     {
+      "code": "Runeword121",
       "name": "Rift",
       "displayName": "Rift",
       "runes": "HelKoLemGul",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Rift"
+      "databaseIndex": "Runeword/Runeword121"
     },
     {
+      "code": "Runeword148",
       "name": "Treachery",
       "displayName": "Treachery",
       "runes": "ShaelThulLem",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Treachery"
+      "databaseIndex": "Runeword/Runeword148"
     },
     {
+      "code": "Runeword151",
       "name": "Unbending Will",
       "displayName": "Unbending Will",
       "runes": "FalIoIthEldElHel",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Unbending Will"
+      "databaseIndex": "Runeword/Runeword151"
     },
     {
+      "code": "Runeword47",
       "name": "Widowmaker",
       "displayName": "Grief",
       "runes": "EthTirLoMalRal",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Widowmaker"
+      "databaseIndex": "Runeword/Runeword47"
     },
     {
+      "code": "Runeword163",
       "name": "Wind",
       "displayName": "Wind",
       "runes": "SurEl",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Wind"
+      "databaseIndex": "Runeword/Runeword163"
     },
     {
+      "code": "Runeword99",
       "name": "Winter",
       "displayName": "Voice of Reason",
       "runes": "LemKoElEld",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Winter"
+      "databaseIndex": "Runeword/Runeword99"
     },
     {
+      "code": "Runeword165",
       "name": "Wisdom",
       "displayName": "Wisdom",
       "runes": "PulIthEld",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Wisdom"
+      "databaseIndex": "Runeword/Runeword165"
     },
     {
+      "code": "Runeword168",
       "name": "Wrath",
       "displayName": "Wrath",
       "runes": "PulLumBerMal",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Wrath"
+      "databaseIndex": "Runeword/Runeword168"
     },
     {
+      "code": "Ferocity",
       "name": "Ferocity",
       "displayName": "Ferocity",
       "runes": "ZodChamShael",
@@ -10082,13 +10281,15 @@
       "databaseIndex": "Runeword/Ferocity"
     },
     {
+      "code": "Runeword171",
       "name": "Dominion",
       "displayName": "Dominion",
       "runes": "ChamOhm",
       "rarity": "Runeword",
-      "databaseIndex": "Runeword/Dominion"
+      "databaseIndex": "Runeword/Runeword171"
     },
     {
+      "code": "Zenith",
       "name": "Zenith",
       "displayName": "Zenith",
       "runes": "JahZodOrtThulRal",
@@ -10096,6 +10297,7 @@
       "databaseIndex": "Runeword/Zenith"
     },
     {
+      "code": "Rampage",
       "name": "Rampage",
       "displayName": "Rampage",
       "runes": "ShaelElIthEth",
@@ -10103,6 +10305,7 @@
       "databaseIndex": "Runeword/Rampage"
     },
     {
+      "code": "Neophyte",
       "name": "Neophyte",
       "displayName": "Neophyte",
       "runes": "ThulTir",
@@ -10110,6 +10313,7 @@
       "databaseIndex": "Runeword/Neophyte"
     },
     {
+      "code": "Shattered Wall",
       "name": "Shattered Wall",
       "displayName": "Shattered Wall",
       "runes": "ZodJahRalCham",
@@ -10117,6 +10321,7 @@
       "databaseIndex": "Runeword/Shattered Wall"
     },
     {
+      "code": "Asylum",
       "name": "Asylum",
       "displayName": "Asylum",
       "runes": "GulChamHelJahDolUm",
@@ -10124,6 +10329,7 @@
       "databaseIndex": "Runeword/Asylum"
     },
     {
+      "code": "Hustle",
       "name": "Hustle",
       "displayName": "Hustle",
       "runes": "ShaelKoEld",
@@ -10131,6 +10337,7 @@
       "databaseIndex": "Runeword/Hustle"
     },
     {
+      "code": "Purity",
       "name": "Purity",
       "displayName": "Purity",
       "runes": "AmnEthThul",
@@ -10138,6 +10345,7 @@
       "databaseIndex": "Runeword/Purity"
     },
     {
+      "code": "Rapture",
       "name": "Rapture",
       "displayName": "Rapture",
       "runes": "VexJahLoRalKoMal",
@@ -15240,7 +15448,7 @@
       }
     }
   },
-  "totalUniqueItems": 411,
+  "totalUniqueItems": 410,
   "totalUniqueItemsFound": 0,
   "Set": {
     "Civerb's Vestments": {
@@ -16463,695 +16671,782 @@
   "totalSetItems": 128,
   "totalSetItemsFound": 0,
   "Runeword": {
-    "Ancient's Pledge": {
+    "Runeword1": {
+      "code": "Runeword1",
       "name": "Ancient's Pledge",
       "displayName": "Ancients' Pledge",
-      "databaseIndex": "Runeword/Ancient's Pledge",
+      "databaseIndex": "Runeword/Runeword1",
       "runes": "RalOrtTal",
       "rarity": "Runeword",
       "found": false
     },
-    "Black": {
+    "Runeword6": {
+      "code": "Runeword6",
       "name": "Black",
       "displayName": "Black",
-      "databaseIndex": "Runeword/Black",
+      "databaseIndex": "Runeword/Runeword6",
       "runes": "ThulIoNef",
       "rarity": "Runeword",
       "found": false
     },
-    "Fury": {
+    "Runeword44": {
+      "code": "Runeword44",
       "name": "Fury",
       "displayName": "Fury",
-      "databaseIndex": "Runeword/Fury",
+      "databaseIndex": "Runeword/Runeword44",
       "runes": "JahGulEth",
       "rarity": "Runeword",
       "found": false
     },
-    "Holy Thunder": {
+    "Runeword54": {
+      "code": "Runeword54",
       "name": "Holy Thunder",
       "displayName": "Holy Thunder",
-      "databaseIndex": "Runeword/Holy Thunder",
+      "databaseIndex": "Runeword/Runeword54",
       "runes": "EthRalOrtTal",
       "rarity": "Runeword",
       "found": false
     },
-    "Honor": {
+    "Runeword55": {
+      "code": "Runeword55",
       "name": "Honor",
       "displayName": "Honor",
-      "databaseIndex": "Runeword/Honor",
+      "databaseIndex": "Runeword/Runeword55",
       "runes": "AmnElIthTirSol",
       "rarity": "Runeword",
       "found": false
     },
-    "King's Grace": {
+    "Runeword65": {
+      "code": "Runeword65",
       "name": "King's Grace",
       "displayName": "King's Grace",
-      "databaseIndex": "Runeword/King's Grace",
+      "databaseIndex": "Runeword/Runeword65",
       "runes": "AmnRalThul",
       "rarity": "Runeword",
       "found": false
     },
-    "Leaf": {
+    "Runeword72": {
+      "code": "Runeword72",
       "name": "Leaf",
       "displayName": "Leaf",
-      "databaseIndex": "Runeword/Leaf",
+      "databaseIndex": "Runeword/Runeword72",
       "runes": "TirRal",
       "rarity": "Runeword",
       "found": false
     },
-    "Lionheart": {
+    "Runeword74": {
+      "code": "Runeword74",
       "name": "Lionheart",
       "displayName": "Lionheart",
-      "databaseIndex": "Runeword/Lionheart",
+      "databaseIndex": "Runeword/Runeword74",
       "runes": "HelLumFal",
       "rarity": "Runeword",
       "found": false
     },
-    "Lore": {
+    "Runeword75": {
+      "code": "Runeword75",
       "name": "Lore",
       "displayName": "Lore",
-      "databaseIndex": "Runeword/Lore",
+      "databaseIndex": "Runeword/Runeword75",
       "runes": "OrtSol",
       "rarity": "Runeword",
       "found": false
     },
-    "Malice": {
+    "Runeword81": {
+      "code": "Runeword81",
       "name": "Malice",
       "displayName": "Malice",
-      "databaseIndex": "Runeword/Malice",
+      "databaseIndex": "Runeword/Runeword81",
       "runes": "IthElEth",
       "rarity": "Runeword",
       "found": false
     },
-    "Melody": {
+    "Runeword82": {
+      "code": "Runeword82",
       "name": "Melody",
       "displayName": "Melody",
-      "databaseIndex": "Runeword/Melody",
+      "databaseIndex": "Runeword/Runeword82",
       "runes": "ShaelKoNef",
       "rarity": "Runeword",
       "found": false
     },
-    "Memory": {
+    "Runeword83": {
+      "code": "Runeword83",
       "name": "Memory",
       "displayName": "Memory",
-      "databaseIndex": "Runeword/Memory",
+      "databaseIndex": "Runeword/Runeword83",
       "runes": "LumIoSolEth",
       "rarity": "Runeword",
       "found": false
     },
-    "Nadir": {
+    "Runeword88": {
+      "code": "Runeword88",
       "name": "Nadir",
       "displayName": "Nadir",
-      "databaseIndex": "Runeword/Nadir",
+      "databaseIndex": "Runeword/Runeword88",
       "runes": "NefTir",
       "rarity": "Runeword",
       "found": false
     },
-    "Radiance": {
+    "Runeword116": {
+      "code": "Runeword116",
       "name": "Radiance",
       "displayName": "Radiance",
-      "databaseIndex": "Runeword/Radiance",
+      "databaseIndex": "Runeword/Runeword116",
       "runes": "NefSolIth",
       "rarity": "Runeword",
       "found": false
     },
-    "Rhyme": {
+    "Runeword120": {
+      "code": "Runeword120",
       "name": "Rhyme",
       "displayName": "Rhyme",
-      "databaseIndex": "Runeword/Rhyme",
+      "databaseIndex": "Runeword/Runeword120",
       "runes": "ShaelEth",
       "rarity": "Runeword",
       "found": false
     },
-    "Silence": {
+    "Runeword126": {
+      "code": "Runeword126",
       "name": "Silence",
       "displayName": "Silence",
-      "databaseIndex": "Runeword/Silence",
+      "databaseIndex": "Runeword/Runeword126",
       "runes": "DolEldHelIstTirVex",
       "rarity": "Runeword",
       "found": false
     },
-    "Smoke": {
+    "Runeword128": {
+      "code": "Runeword128",
       "name": "Smoke",
       "displayName": "Smoke",
-      "databaseIndex": "Runeword/Smoke",
+      "databaseIndex": "Runeword/Runeword128",
       "runes": "NefLum",
       "rarity": "Runeword",
       "found": false
     },
-    "Stealth": {
+    "Runeword133": {
+      "code": "Runeword133",
       "name": "Stealth",
       "displayName": "Stealth",
-      "databaseIndex": "Runeword/Stealth",
+      "databaseIndex": "Runeword/Runeword133",
       "runes": "TalEth",
       "rarity": "Runeword",
       "found": false
     },
-    "Steel": {
+    "Runeword134": {
+      "code": "Runeword134",
       "name": "Steel",
       "displayName": "Steel",
-      "databaseIndex": "Runeword/Steel",
+      "databaseIndex": "Runeword/Runeword134",
       "runes": "TirEl",
       "rarity": "Runeword",
       "found": false
     },
-    "Strength": {
+    "Runeword139": {
+      "code": "Runeword139",
       "name": "Strength",
       "displayName": "Strength",
-      "databaseIndex": "Runeword/Strength",
+      "databaseIndex": "Runeword/Runeword139",
       "runes": "AmnTir",
       "rarity": "Runeword",
       "found": false
     },
-    "Venom": {
+    "Runeword154": {
+      "code": "Runeword154",
       "name": "Venom",
       "displayName": "Venom",
-      "databaseIndex": "Runeword/Venom",
+      "databaseIndex": "Runeword/Runeword154",
       "runes": "TalDolMal",
       "rarity": "Runeword",
       "found": false
     },
-    "Wealth": {
+    "Runeword160": {
+      "code": "Runeword160",
       "name": "Wealth",
       "displayName": "Wealth",
-      "databaseIndex": "Runeword/Wealth",
+      "databaseIndex": "Runeword/Runeword160",
       "runes": "LemKoTir",
       "rarity": "Runeword",
       "found": false
     },
-    "White": {
+    "Runeword162": {
+      "code": "Runeword162",
       "name": "White",
       "displayName": "White",
-      "databaseIndex": "Runeword/White",
+      "databaseIndex": "Runeword/Runeword162",
       "runes": "DolIo",
       "rarity": "Runeword",
       "found": false
     },
-    "Zephyr": {
+    "Runeword170": {
+      "code": "Runeword170",
       "name": "Zephyr",
       "displayName": "Zephyr",
-      "databaseIndex": "Runeword/Zephyr",
+      "databaseIndex": "Runeword/Runeword170",
       "runes": "OrtEth",
       "rarity": "Runeword",
       "found": false
     },
-    "Bound by Duty": {
+    "Runeword14": {
+      "code": "Runeword14",
       "name": "Bound by Duty",
       "displayName": "Chains of Honor",
-      "databaseIndex": "Runeword/Bound by Duty",
+      "databaseIndex": "Runeword/Runeword14",
       "runes": "DolUmBerIst",
       "rarity": "Runeword",
       "found": false
     },
-    "Bramble": {
+    "Runeword9": {
+      "code": "Runeword9",
       "name": "Bramble",
       "displayName": "Bramble",
-      "databaseIndex": "Runeword/Bramble",
+      "databaseIndex": "Runeword/Runeword9",
       "runes": "RalOhmSurEth",
       "rarity": "Runeword",
       "found": false
     },
-    "Breath of the Dying": {
+    "Runeword11": {
+      "code": "Runeword11",
       "name": "Breath of the Dying",
       "displayName": "Breath of the Dying",
-      "databaseIndex": "Runeword/Breath of the Dying",
+      "databaseIndex": "Runeword/Runeword11",
       "runes": "VexHelElEldZodEth",
       "rarity": "Runeword",
       "found": false
     },
-    "Call to Arms": {
+    "Runeword13": {
+      "code": "Runeword13",
       "name": "Call to Arms",
       "displayName": "Call to Arms",
-      "databaseIndex": "Runeword/Call to Arms",
+      "databaseIndex": "Runeword/Runeword13",
       "runes": "AmnRalMalIstOhm",
       "rarity": "Runeword",
       "found": false
     },
-    "Crescent Moon": {
+    "Runeword17": {
+      "code": "Runeword17",
       "name": "Crescent Moon",
       "displayName": "Crescent Moon",
-      "databaseIndex": "Runeword/Crescent Moon",
+      "databaseIndex": "Runeword/Runeword17",
       "runes": "ShaelUmTir",
       "rarity": "Runeword",
       "found": false
     },
-    "Delirium": {
+    "Runeword22": {
+      "code": "Runeword22",
       "name": "Delirium",
       "displayName": "Delirium",
-      "databaseIndex": "Runeword/Delirium",
+      "databaseIndex": "Runeword/Runeword22",
       "runes": "LemIstIo",
       "rarity": "Runeword",
       "found": false
     },
-    "Doomsayer": {
+    "Runeword26": {
+      "code": "Runeword26",
       "name": "Doomsayer",
       "displayName": "Doom",
-      "databaseIndex": "Runeword/Doomsayer",
+      "databaseIndex": "Runeword/Runeword26",
       "runes": "HelOhmUmLoCham",
       "rarity": "Runeword",
       "found": false
     },
-    "Enigma": {
+    "Runeword33": {
+      "code": "Runeword33",
       "name": "Enigma",
       "displayName": "Enigma",
-      "databaseIndex": "Runeword/Enigma",
+      "databaseIndex": "Runeword/Runeword33",
       "runes": "JahIthBer",
       "rarity": "Runeword",
       "found": false
     },
-    "Stone": {
+    "Runeword137": {
+      "code": "Runeword137",
       "name": "Stone",
       "displayName": "Stone",
-      "databaseIndex": "Runeword/Stone",
+      "databaseIndex": "Runeword/Runeword137",
       "runes": "ShaelUmPulLum",
       "rarity": "Runeword",
       "found": false
     },
-    "Eternity": {
+    "Runeword36": {
+      "code": "Runeword36",
       "name": "Eternity",
       "displayName": "Eternity",
-      "databaseIndex": "Runeword/Eternity",
+      "databaseIndex": "Runeword/Runeword36",
       "runes": "AmnBerIstSolSur",
       "rarity": "Runeword",
       "found": false
     },
-    "Exile's Path": {
+    "Runeword37": {
+      "code": "Runeword37",
       "name": "Exile's Path",
       "displayName": "Exile",
-      "databaseIndex": "Runeword/Exile's Path",
+      "databaseIndex": "Runeword/Runeword37",
       "runes": "VexOhmIstDol",
       "rarity": "Runeword",
       "found": false
     },
-    "Famine": {
+    "Runeword39": {
+      "code": "Runeword39",
       "name": "Famine",
       "displayName": "Famine",
-      "databaseIndex": "Runeword/Famine",
+      "databaseIndex": "Runeword/Runeword39",
       "runes": "FalOhmOrtJah",
       "rarity": "Runeword",
       "found": false
     },
-    "Hand of Justice": {
+    "Runeword48": {
+      "code": "Runeword48",
       "name": "Hand of Justice",
       "displayName": "Hand of Justice",
-      "databaseIndex": "Runeword/Hand of Justice",
+      "databaseIndex": "Runeword/Runeword48",
       "runes": "SurChamAmnLo",
       "rarity": "Runeword",
       "found": false
     },
-    "Heart of the Oak": {
+    "Runeword51": {
+      "code": "Runeword51",
       "name": "Heart of the Oak",
       "displayName": "Heart of the Oak",
-      "databaseIndex": "Runeword/Heart of the Oak",
+      "databaseIndex": "Runeword/Runeword51",
       "runes": "KoVexPulThul",
       "rarity": "Runeword",
       "found": false
     },
-    "Kingslayer": {
+    "Runeword66": {
+      "code": "Runeword66",
       "name": "Kingslayer",
       "displayName": "Kingslayer",
-      "databaseIndex": "Runeword/Kingslayer",
+      "databaseIndex": "Runeword/Runeword66",
       "runes": "MalUmGulFal",
       "rarity": "Runeword",
       "found": false
     },
-    "Passion": {
+    "Runeword95": {
+      "code": "Runeword95",
       "name": "Passion",
       "displayName": "Passion",
-      "databaseIndex": "Runeword/Passion",
+      "databaseIndex": "Runeword/Runeword95",
       "runes": "DolOrtEldLem",
       "rarity": "Runeword",
       "found": false
     },
-    "Gloom": {
+    "Runeword45": {
+      "code": "Runeword45",
       "name": "Gloom",
       "displayName": "Gloom",
-      "databaseIndex": "Runeword/Gloom",
+      "databaseIndex": "Runeword/Runeword45",
       "runes": "FalUmPul",
       "rarity": "Runeword",
       "found": false
     },
-    "Sanctuary": {
+    "Runeword122": {
+      "code": "Runeword122",
       "name": "Sanctuary",
       "displayName": "Sanctuary",
-      "databaseIndex": "Runeword/Sanctuary",
+      "databaseIndex": "Runeword/Runeword122",
       "runes": "KoKoMal",
       "rarity": "Runeword",
       "found": false
     },
-    "Chaos": {
+    "Runeword16": {
+      "code": "Runeword16",
       "name": "Chaos",
       "displayName": "Chaos",
-      "databaseIndex": "Runeword/Chaos",
+      "databaseIndex": "Runeword/Runeword16",
       "runes": "FalOhmUm",
       "rarity": "Runeword",
       "found": false
     },
-    "The Beast": {
+    "Runeword4": {
+      "code": "Runeword4",
       "name": "The Beast",
       "displayName": "Beast",
-      "databaseIndex": "Runeword/The Beast",
+      "databaseIndex": "Runeword/Runeword4",
       "runes": "BerTirUmMalLum",
       "rarity": "Runeword",
       "found": false
     },
-    "Spirit": {
+    "Runeword130": {
+      "code": "Runeword130",
       "name": "Spirit",
       "displayName": "Spirit",
-      "databaseIndex": "Runeword/Spirit",
+      "databaseIndex": "Runeword/Runeword130",
       "runes": "TalThulOrtAmn",
       "rarity": "Runeword",
       "found": false
     },
-    "Splendor": {
+    "Runeword131": {
+      "code": "Runeword131",
       "name": "Splendor",
       "displayName": "Splendor",
-      "databaseIndex": "Runeword/Splendor",
+      "databaseIndex": "Runeword/Runeword131",
       "runes": "EthLum",
       "rarity": "Runeword",
       "found": false
     },
-    "Duress": {
+    "Runeword30": {
+      "code": "Runeword30",
       "name": "Duress",
       "displayName": "Duress",
-      "databaseIndex": "Runeword/Duress",
+      "databaseIndex": "Runeword/Runeword30",
       "runes": "ShaelUmThul",
       "rarity": "Runeword",
       "found": false
     },
-    "Oath": {
+    "Runeword91": {
+      "code": "Runeword91",
       "name": "Oath",
       "displayName": "Oath",
-      "databaseIndex": "Runeword/Oath",
+      "databaseIndex": "Runeword/Runeword91",
       "runes": "ShaelPulMalLum",
       "rarity": "Runeword",
       "found": false
     },
-    "Obedience": {
+    "Runeword92": {
+      "code": "Runeword92",
       "name": "Obedience",
       "displayName": "Obedience",
-      "databaseIndex": "Runeword/Obedience",
+      "databaseIndex": "Runeword/Runeword92",
       "runes": "HelKoThulEthFal",
       "rarity": "Runeword",
       "found": false
     },
-    "Obsession": {
+    "Runeword94": {
+      "code": "Runeword94",
       "name": "Obsession",
       "displayName": "Obsession",
-      "databaseIndex": "Runeword/Obsession",
+      "databaseIndex": "Runeword/Runeword94",
       "runes": "ZodIstLemLumIoNef",
       "rarity": "Runeword",
       "found": false
     },
-    "Harmony": {
+    "Runeword49": {
+      "code": "Runeword49",
       "name": "Harmony",
       "displayName": "Harmony",
-      "databaseIndex": "Runeword/Harmony",
+      "databaseIndex": "Runeword/Runeword49",
       "runes": "TirIthSolKo",
       "rarity": "Runeword",
       "found": false
     },
-    "Flickering Flame": {
+    "Runeword40": {
+      "code": "Runeword40",
       "name": "Flickering Flame",
       "displayName": "Flickering Flame",
-      "databaseIndex": "Runeword/Flickering Flame",
+      "databaseIndex": "Runeword/Runeword40",
       "runes": "NefPulVex",
       "rarity": "Runeword",
       "found": false
     },
-    "Fortitude": {
+    "Runeword41": {
+      "code": "Runeword41",
       "name": "Fortitude",
       "displayName": "Fortitude",
-      "databaseIndex": "Runeword/Fortitude",
+      "databaseIndex": "Runeword/Runeword41",
       "runes": "ElSolDolLo",
       "rarity": "Runeword",
       "found": false
     },
-    "Faith": {
+    "Runeword38": {
+      "code": "Runeword38",
       "name": "Faith",
       "displayName": "Faith",
-      "databaseIndex": "Runeword/Faith",
+      "databaseIndex": "Runeword/Runeword38",
       "runes": "OhmJahLemEld",
       "rarity": "Runeword",
       "found": false
     },
-    "Bone": {
+    "Runeword8": {
+      "code": "Runeword8",
       "name": "Bone",
       "displayName": "Bone",
-      "databaseIndex": "Runeword/Bone",
+      "databaseIndex": "Runeword/Runeword8",
       "runes": "SolUmUm",
       "rarity": "Runeword",
       "found": false
     },
-    "Brand": {
+    "Runeword10": {
+      "code": "Runeword10",
       "name": "Brand",
       "displayName": "Brand",
-      "databaseIndex": "Runeword/Brand",
+      "databaseIndex": "Runeword/Runeword10",
       "runes": "JahLoMalGul",
       "rarity": "Runeword",
       "found": false
     },
-    "Death": {
+    "Runeword20": {
+      "code": "Runeword20",
       "name": "Death",
       "displayName": "Death",
-      "databaseIndex": "Runeword/Death",
+      "databaseIndex": "Runeword/Runeword20",
       "runes": "HelElVexOrtGul",
       "rarity": "Runeword",
       "found": false
     },
-    "Destruction": {
+    "Runeword25": {
+      "code": "Runeword25",
       "name": "Destruction",
       "displayName": "Destruction",
-      "databaseIndex": "Runeword/Destruction",
+      "databaseIndex": "Runeword/Runeword25",
       "runes": "VexLoBerJahKo",
       "rarity": "Runeword",
       "found": false
     },
-    "Dragon": {
+    "Runeword27": {
+      "code": "Runeword27",
       "name": "Dragon",
       "displayName": "Dragon",
-      "databaseIndex": "Runeword/Dragon",
+      "databaseIndex": "Runeword/Runeword27",
       "runes": "SurLoSol",
       "rarity": "Runeword",
       "found": false
     },
-    "Dream": {
+    "Runeword29": {
+      "code": "Runeword29",
       "name": "Dream",
       "displayName": "Dream",
-      "databaseIndex": "Runeword/Dream",
+      "databaseIndex": "Runeword/Runeword29",
       "runes": "IoJahPul",
       "rarity": "Runeword",
       "found": false
     },
-    "Edge": {
+    "Runeword31": {
+      "code": "Runeword31",
       "name": "Edge",
       "displayName": "Edge",
-      "databaseIndex": "Runeword/Edge",
+      "databaseIndex": "Runeword/Runeword31",
       "runes": "TirTalAmn",
       "rarity": "Runeword",
       "found": false
     },
-    "Enlightenment": {
+    "Runeword34": {
+      "code": "Runeword34",
       "name": "Enlightenment",
       "displayName": "Enlightenment",
-      "databaseIndex": "Runeword/Enlightenment",
+      "databaseIndex": "Runeword/Runeword34",
       "runes": "PulRalSol",
       "rarity": "Runeword",
       "found": false
     },
-    "Ice": {
+    "Runeword59": {
+      "code": "Runeword59",
       "name": "Ice",
       "displayName": "Ice",
-      "databaseIndex": "Runeword/Ice",
+      "databaseIndex": "Runeword/Runeword59",
       "runes": "AmnShaelJahLo",
       "rarity": "Runeword",
       "found": false
     },
-    "Infinity": {
+    "Runeword60": {
+      "code": "Runeword60",
       "name": "Infinity",
       "displayName": "Infinity",
-      "databaseIndex": "Runeword/Infinity",
+      "databaseIndex": "Runeword/Runeword60",
       "runes": "BerMalBerIst",
       "rarity": "Runeword",
       "found": false
     },
-    "Innocence": {
+    "Runeword61": {
+      "code": "Runeword61",
       "name": "Innocence",
       "displayName": "Innocence",
-      "databaseIndex": "Runeword/Innocence",
+      "databaseIndex": "Runeword/Runeword61",
       "runes": "GulLemZodHel",
       "rarity": "Runeword",
       "found": false
     },
-    "Insight": {
+    "Runeword62": {
+      "code": "Runeword62",
       "name": "Insight",
       "displayName": "Insight",
-      "databaseIndex": "Runeword/Insight",
+      "databaseIndex": "Runeword/Runeword62",
       "runes": "RalTirTalSol",
       "rarity": "Runeword",
       "found": false
     },
-    "Last Wish": {
+    "Runeword69": {
+      "code": "Runeword69",
       "name": "Last Wish",
       "displayName": "Last Wish",
-      "databaseIndex": "Runeword/Last Wish",
+      "databaseIndex": "Runeword/Runeword69",
       "runes": "JahMalJahSurJahBer",
       "rarity": "Runeword",
       "found": false
     },
-    "Lawbringer": {
+    "Runeword71": {
+      "code": "Runeword71",
       "name": "Lawbringer",
       "displayName": "Lawbringer",
-      "databaseIndex": "Runeword/Lawbringer",
+      "databaseIndex": "Runeword/Runeword71",
       "runes": "AmnLemKo",
       "rarity": "Runeword",
       "found": false
     },
-    "Mist": {
+    "Runeword84": {
+      "code": "Runeword84",
       "name": "Mist",
       "displayName": "Mist",
-      "databaseIndex": "Runeword/Mist",
+      "databaseIndex": "Runeword/Runeword84",
       "runes": "ChamShaelGulThulIth",
       "rarity": "Runeword",
       "found": false
     },
-    "Myth": {
+    "Runeword87": {
+      "code": "Runeword87",
       "name": "Myth",
       "displayName": "Myth",
-      "databaseIndex": "Runeword/Myth",
+      "databaseIndex": "Runeword/Runeword87",
       "runes": "HelAmnNef",
       "rarity": "Runeword",
       "found": false
     },
-    "Pattern": {
+    "Runeword97": {
+      "code": "Runeword97",
       "name": "Pattern",
       "displayName": "Pattern",
-      "databaseIndex": "Runeword/Pattern",
+      "databaseIndex": "Runeword/Runeword97",
       "runes": "TalOrtTir",
       "rarity": "Runeword",
       "found": false
     },
-    "Peace": {
+    "Runeword98": {
+      "code": "Runeword98",
       "name": "Peace",
       "displayName": "Peace",
-      "databaseIndex": "Runeword/Peace",
+      "databaseIndex": "Runeword/Runeword98",
       "runes": "ShaelThulAmn",
       "rarity": "Runeword",
       "found": false
     },
-    "Phoenix": {
+    "Runeword103": {
+      "code": "Runeword103",
       "name": "Phoenix",
       "displayName": "Phoenix",
-      "databaseIndex": "Runeword/Phoenix",
+      "databaseIndex": "Runeword/Runeword103",
       "runes": "VexVexLoJah",
       "rarity": "Runeword",
       "found": false
     },
-    "Plague": {
+    "Runeword106": {
+      "code": "Runeword106",
       "name": "Plague",
       "displayName": "Plague",
-      "databaseIndex": "Runeword/Plague",
+      "databaseIndex": "Runeword/Runeword106",
       "runes": "ChamFalUm",
       "rarity": "Runeword",
       "found": false
     },
-    "Pride": {
+    "Runeword109": {
+      "code": "Runeword109",
       "name": "Pride",
       "displayName": "Pride",
-      "databaseIndex": "Runeword/Pride",
+      "databaseIndex": "Runeword/Runeword109",
       "runes": "ChamSurIoLo",
       "rarity": "Runeword",
       "found": false
     },
-    "Principle": {
+    "Runeword110": {
+      "code": "Runeword110",
       "name": "Principle",
       "displayName": "Principle",
-      "databaseIndex": "Runeword/Principle",
+      "databaseIndex": "Runeword/Runeword110",
       "runes": "RalGulEld",
       "rarity": "Runeword",
       "found": false
     },
-    "Prudence": {
+    "Runeword112": {
+      "code": "Runeword112",
       "name": "Prudence",
       "displayName": "Prudence",
-      "databaseIndex": "Runeword/Prudence",
+      "databaseIndex": "Runeword/Runeword112",
       "runes": "MalTir",
       "rarity": "Runeword",
       "found": false
     },
-    "Rain": {
+    "Runeword117": {
+      "code": "Runeword117",
       "name": "Rain",
       "displayName": "Rain",
-      "databaseIndex": "Runeword/Rain",
+      "databaseIndex": "Runeword/Runeword117",
       "runes": "OrtMalIth",
       "rarity": "Runeword",
       "found": false
     },
-    "Rift": {
+    "Runeword121": {
+      "code": "Runeword121",
       "name": "Rift",
       "displayName": "Rift",
-      "databaseIndex": "Runeword/Rift",
+      "databaseIndex": "Runeword/Runeword121",
       "runes": "HelKoLemGul",
       "rarity": "Runeword",
       "found": false
     },
-    "Treachery": {
+    "Runeword148": {
+      "code": "Runeword148",
       "name": "Treachery",
       "displayName": "Treachery",
-      "databaseIndex": "Runeword/Treachery",
+      "databaseIndex": "Runeword/Runeword148",
       "runes": "ShaelThulLem",
       "rarity": "Runeword",
       "found": false
     },
-    "Unbending Will": {
+    "Runeword151": {
+      "code": "Runeword151",
       "name": "Unbending Will",
       "displayName": "Unbending Will",
-      "databaseIndex": "Runeword/Unbending Will",
+      "databaseIndex": "Runeword/Runeword151",
       "runes": "FalIoIthEldElHel",
       "rarity": "Runeword",
       "found": false
     },
-    "Widowmaker": {
+    "Runeword47": {
+      "code": "Runeword47",
       "name": "Widowmaker",
       "displayName": "Grief",
-      "databaseIndex": "Runeword/Widowmaker",
+      "databaseIndex": "Runeword/Runeword47",
       "runes": "EthTirLoMalRal",
       "rarity": "Runeword",
       "found": false
     },
-    "Wind": {
+    "Runeword163": {
+      "code": "Runeword163",
       "name": "Wind",
       "displayName": "Wind",
-      "databaseIndex": "Runeword/Wind",
+      "databaseIndex": "Runeword/Runeword163",
       "runes": "SurEl",
       "rarity": "Runeword",
       "found": false
     },
-    "Winter": {
+    "Runeword99": {
+      "code": "Runeword99",
       "name": "Winter",
       "displayName": "Voice of Reason",
-      "databaseIndex": "Runeword/Winter",
+      "databaseIndex": "Runeword/Runeword99",
       "runes": "LemKoElEld",
       "rarity": "Runeword",
       "found": false
     },
-    "Wisdom": {
+    "Runeword165": {
+      "code": "Runeword165",
       "name": "Wisdom",
       "displayName": "Wisdom",
-      "databaseIndex": "Runeword/Wisdom",
+      "databaseIndex": "Runeword/Runeword165",
       "runes": "PulIthEld",
       "rarity": "Runeword",
       "found": false
     },
-    "Wrath": {
+    "Runeword168": {
+      "code": "Runeword168",
       "name": "Wrath",
       "displayName": "Wrath",
-      "databaseIndex": "Runeword/Wrath",
+      "databaseIndex": "Runeword/Runeword168",
       "runes": "PulLumBerMal",
       "rarity": "Runeword",
       "found": false
     },
     "Ferocity": {
+      "code": "Ferocity",
       "name": "Ferocity",
       "displayName": "Ferocity",
       "databaseIndex": "Runeword/Ferocity",
@@ -17159,15 +17454,17 @@
       "rarity": "Runeword",
       "found": false
     },
-    "Dominion": {
+    "Runeword171": {
+      "code": "Runeword171",
       "name": "Dominion",
       "displayName": "Dominion",
-      "databaseIndex": "Runeword/Dominion",
+      "databaseIndex": "Runeword/Runeword171",
       "runes": "ChamOhm",
       "rarity": "Runeword",
       "found": false
     },
     "Zenith": {
+      "code": "Zenith",
       "name": "Zenith",
       "displayName": "Zenith",
       "databaseIndex": "Runeword/Zenith",
@@ -17176,6 +17473,7 @@
       "found": false
     },
     "Rampage": {
+      "code": "Rampage",
       "name": "Rampage",
       "displayName": "Rampage",
       "databaseIndex": "Runeword/Rampage",
@@ -17184,6 +17482,7 @@
       "found": false
     },
     "Neophyte": {
+      "code": "Neophyte",
       "name": "Neophyte",
       "displayName": "Neophyte",
       "databaseIndex": "Runeword/Neophyte",
@@ -17192,6 +17491,7 @@
       "found": false
     },
     "Shattered Wall": {
+      "code": "Shattered Wall",
       "name": "Shattered Wall",
       "displayName": "Shattered Wall",
       "databaseIndex": "Runeword/Shattered Wall",
@@ -17200,6 +17500,7 @@
       "found": false
     },
     "Asylum": {
+      "code": "Asylum",
       "name": "Asylum",
       "displayName": "Asylum",
       "databaseIndex": "Runeword/Asylum",
@@ -17208,6 +17509,7 @@
       "found": false
     },
     "Hustle": {
+      "code": "Hustle",
       "name": "Hustle",
       "displayName": "Hustle",
       "databaseIndex": "Runeword/Hustle",
@@ -17216,6 +17518,7 @@
       "found": false
     },
     "Purity": {
+      "code": "Purity",
       "name": "Purity",
       "displayName": "Purity",
       "databaseIndex": "Runeword/Purity",
@@ -17224,6 +17527,7 @@
       "found": false
     },
     "Rapture": {
+      "code": "Rapture",
       "name": "Rapture",
       "displayName": "Rapture",
       "databaseIndex": "Runeword/Rapture",

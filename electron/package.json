@@ -1,6 +1,6 @@
 {
   "name": "pd2-grail-tracker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "PD2 Grail Tracker",
   "main": "./out/main/index.js",
   "author": "Mustafa Erva Ergül",

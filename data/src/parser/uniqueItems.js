@@ -81,11 +81,11 @@ export const parseUniqueItems = (database) => {
 
       if (!existingDatabaseIndexArrayEntry) {
         database['grailData']['databaseIndexesArray'].push(uniqueItemDatabaseIndexEntry)
+        database['grailData']['totalUniqueItems'] += 1
       } else {
         logWarning(`${uniqueItemDatabaseIndex} already exists in databaseIndexesArray`)
       }
 
-      database['grailData']['totalUniqueItems'] += 1
     } else {
       database['grailData'][uniqueItemRarity][uniqueItemCategory][uniqueItemSubCategory][uniqueItemName] = uniqueItemGrailEntry
       database['grailData']['databaseIndexes'][uniqueItemName] = uniqueItemDatabaseIndexEntry
