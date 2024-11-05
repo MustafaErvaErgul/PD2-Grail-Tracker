@@ -41,29 +41,37 @@ const App = () => {
     if (event.ctrlKey && event.keyCode === 6) {
       setActivePageIndex(9)
     }
-  };
+  }
 
   const itemCopyHandler = (event) => {
     setTimeout(() => {
       try {
-        const clipboardValue = window.api.clipboard.readText();
-        const parsedValue = JSON.parse(clipboardValue);
-        let itemName = null
+        const clipboardValue = window.api.clipboard.readText()
+        const parsedValue = JSON.parse(clipboardValue)
+
+        let itemRarity = null
+        let itemId = null
 
         if (parsedValue.runeword) {
-          itemName = parsedValue.runeword
-        } else if (parsedValue.type && parsedValue.type.includes("Rune")) {
-          itemName = parsedValue.type
-        } else if (parsedValue.name) {
-          itemName = parsedValue.name
+          itemRarity = "runeword"
+          itemId = parsedValue.runeword
+        } else if (parsedValue.quality === "Normal" && parsedValue.type && parsedValue.type.includes("Rune")) {
+          itemRarity = "rune"
+          itemId = parsedValue.type
+        } else if (parsedValue.quality === "Unique" && parsedValue.name) {
+          itemRarity = "unique"
+          itemId = parsedValue.name
+        } else if (parsedValue.quality === "Set" && parsedValue.name) {
+          itemRarity = "set"
+          itemId = parsedValue.name
         }
 
-        if (!itemName) {
+        if (!itemId || !itemRarity) {
           showToast("error", "Error!", `Invalid input!`)
           return
         }
 
-        markItemAsFound(itemName)
+        markItemAsFound(itemRarity, itemId)
       } catch (error) {
         console.error(error)
         showToast("error", "Error!", `Invalid input!`)

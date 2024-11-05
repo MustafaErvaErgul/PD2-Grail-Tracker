@@ -5,10 +5,16 @@ import SetItemList from "../../components/SetItemList/SetItemList"
 const SetItems = () => {
   const database = useZustand(state => state.database)
 
-  const setCategories = Object.keys(database['Set']).map(setName => ({
-    title: setName,
-    items: Object.values(database.Set[setName])
-  })).sort((a, b) => a.title.localeCompare(b.title))
+  const setCategories = Object.keys(database['set']).map(setName => {
+    const items = Object.values(database.set[setName])
+
+    const title = items[0]?.setNameDisplayName
+
+    return {
+      title,
+      items
+    }
+  }).sort((a, b) => a.title.localeCompare(b.title))
 
   return (
     <div id="page-content">

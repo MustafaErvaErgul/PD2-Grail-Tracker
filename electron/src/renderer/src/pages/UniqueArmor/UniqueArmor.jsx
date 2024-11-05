@@ -4,14 +4,15 @@ import UniqueItemList from "../../components/UniqueItemList/UniqueItemList"
 import { convertObjectToArray, getObjectFromDatabaseIndex } from "../../utils"
 
 const armorCategories = [
-  { title: "Helmet", subCategories: [{ databaseIndex: "Unique/Armor/Helmet/Normal", title: "Normal" }, { databaseIndex: "Unique/Armor/Helmet/Exceptional", title: "Exceptional" }, { databaseIndex: "Unique/Armor/Helmet/Elite", title: "Elite" }] },
-  { title: "Chest", subCategories: [{ databaseIndex: "Unique/Armor/Chest/Normal", title: "Normal" }, { databaseIndex: "Unique/Armor/Chest/Exceptional", title: "Exceptional" }, { databaseIndex: "Unique/Armor/Chest/Elite", title: "Elite" }] },
-  { title: "Gloves", subCategories: [{ databaseIndex: "Unique/Armor/Gloves/Normal", title: "Normal" }, { databaseIndex: "Unique/Armor/Gloves/Exceptional", title: "Exceptional" }, { databaseIndex: "Unique/Armor/Gloves/Elite", title: "Elite" }] },
-  { title: "Boots", subCategories: [{ databaseIndex: "Unique/Armor/Boots/Normal", title: "Normal" }, { databaseIndex: "Unique/Armor/Boots/Exceptional", title: "Exceptional" }, { databaseIndex: "Unique/Armor/Boots/Elite", title: "Elite" }] },
-  { title: "Belt", subCategories: [{ databaseIndex: "Unique/Armor/Belt/Normal", title: "Normal" }, { databaseIndex: "Unique/Armor/Belt/Exceptional", title: "Exceptional" }, { databaseIndex: "Unique/Armor/Belt/Elite", title: "Elite" }] },
-  { title: "Circlet", subCategories: [{ databaseIndex: "Unique/Armor/Circlet/Normal", title: "Normal" }, { databaseIndex: "Unique/Armor/Circlet/Exceptional", title: "Exceptional" }, { databaseIndex: "Unique/Armor/Circlet/Elite", title: "Elite" }] },
-  { title: "Shield", subCategories: [{ databaseIndex: "Unique/Armor/Shield/Normal", title: "Normal" }, { databaseIndex: "Unique/Armor/Shield/Exceptional", title: "Exceptional" }, { databaseIndex: "Unique/Armor/Shield/Elite", title: "Elite" }] }
-]
+  { title: "Helmet", subCategories: [{ databaseIndex: "unique/armor/helmet/normal", title: "Normal" }, { databaseIndex: "unique/armor/helmet/exceptional", title: "Exceptional" }, { databaseIndex: "unique/armor/helmet/elite", title: "Elite" }] },
+  { title: "Chest", subCategories: [{ databaseIndex: "unique/armor/chest/normal", title: "Normal" }, { databaseIndex: "unique/armor/chest/exceptional", title: "Exceptional" }, { databaseIndex: "unique/armor/chest/elite", title: "Elite" }] },
+  { title: "Gloves", subCategories: [{ databaseIndex: "unique/armor/gloves/normal", title: "Normal" }, { databaseIndex: "unique/armor/gloves/exceptional", title: "Exceptional" }, { databaseIndex: "unique/armor/gloves/elite", title: "Elite" }] },
+  { title: "Boots", subCategories: [{ databaseIndex: "unique/armor/boots/normal", title: "Normal" }, { databaseIndex: "unique/armor/boots/exceptional", title: "Exceptional" }, { databaseIndex: "unique/armor/boots/elite", title: "Elite" }] },
+  { title: "Belt", subCategories: [{ databaseIndex: "unique/armor/belt/normal", title: "Normal" }, { databaseIndex: "unique/armor/belt/exceptional", title: "Exceptional" }, { databaseIndex: "unique/armor/belt/elite", title: "Elite" }] },
+  { title: "Circlet", subCategories: [{ databaseIndex: "unique/armor/circlet/normal", title: "Normal" }, { databaseIndex: "unique/armor/circlet/exceptional", title: "Exceptional" }, { databaseIndex: "unique/armor/circlet/elite", title: "Elite" }] },
+  { title: "Shield", subCategories: [{ databaseIndex: "unique/armor/shield/normal", title: "Normal" }, { databaseIndex: "unique/armor/shield/exceptional", title: "Exceptional" }, { databaseIndex: "unique/armor/shield/elite", title: "Elite" }] }
+];
+
 
 const UniqueArmor = () => {
   const database = useZustand(state => state.database)

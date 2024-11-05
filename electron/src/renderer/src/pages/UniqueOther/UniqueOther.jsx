@@ -4,9 +4,9 @@ import UniqueItemList from "../../components/UniqueItemList/UniqueItemList"
 import { convertObjectToArray, getObjectFromDatabaseIndex } from "../../utils"
 
 const otherCategories = [
-  { title: "Jewellery", subCategories: [{ databaseIndex: "Unique/Other/Amulet", title: "Amulet" }, { databaseIndex: "Unique/Other/Ring", title: "Ring" }] },
-  { title: "Class Specific", subCategories: [{ databaseIndex: "Unique/Other/Amazon", title: "Amazon" }, { databaseIndex: "Unique/Other/Assassin", title: "Assassin" }, { databaseIndex: "Unique/Other/Barbarian", title: "Barbarian" }, { databaseIndex: "Unique/Other/Druid", title: "Druid" }, { databaseIndex: "Unique/Other/Necromancer", title: "Necromancer" }, { databaseIndex: "Unique/Other/Paladin", title: "Paladin" }, { databaseIndex: "Unique/Other/Sorceress", title: "Sorceress" }] },
-  { title: "Misc", subCategories: [{ databaseIndex: "Unique/Other/Charm", title: "Charm" }, { databaseIndex: "Unique/Other/Map", title: "Map" }, { databaseIndex: "Unique/Other/Jewel", title: "Jewel" }] }
+  { title: "Jewellery", subCategories: [{ databaseIndex: "unique/other/amulet", title: "Amulet" }, { databaseIndex: "unique/other/ring", title: "Ring" }] },
+  { title: "Class Specific", subCategories: [{ databaseIndex: "unique/other/amazon", title: "Amazon" }, { databaseIndex: "unique/other/assassin", title: "Assassin" }, { databaseIndex: "unique/other/barbarian", title: "Barbarian" }, { databaseIndex: "unique/other/druid", title: "Druid" }, { databaseIndex: "unique/other/necromancer", title: "Necromancer" }, { databaseIndex: "unique/other/paladin", title: "Paladin" }, { databaseIndex: "unique/other/sorceress", title: "Sorceress" }] },
+  { title: "Misc", subCategories: [{ databaseIndex: "unique/other/charm", title: "Charm" }, { databaseIndex: "unique/other/map", title: "Map" }, { databaseIndex: "unique/other/jewel", title: "Jewel" }] }
 ]
 
 const UniqueOther = () => {

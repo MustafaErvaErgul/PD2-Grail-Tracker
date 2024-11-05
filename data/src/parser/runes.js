@@ -5,7 +5,7 @@ import { RUNES } from "../arbitrary/index.js"
 /*
   Runes Item Fields
   'Name' -> Runeword code, reference used in 'String Tables'
-  'Rune Name' -> Runeword name
+  'Rune Name' -> ID, Runeword name
   'complete' -> Whether runeword is obtainable or not 1|0
 */
 
@@ -19,17 +19,17 @@ export const parseRunewords = (database) => {
       return
     }
 
-    const runewordCode = runeword['Name']
-    const runewordName = runeword['Rune Name']
-    const runewordDisplayName = findStringTableValue(runewordCode)
-    const runewordRunesArray = []
+    const _id = runeword['Rune Name']
+    const _name = runeword['Name']
+    const _displayName = findStringTableValue(_name)
+    const _runesArray = []
 
     for (let i = 1; i <= 6; i++) {
       const fieldName = `Rune${i}`
 
       if (runeword[fieldName]) {
         const rune = RUNES.find((element) => {
-          return element.code == runeword[fieldName]
+          return element.id == runeword[fieldName]
         })
 
         if (!rune) {
@@ -37,62 +37,55 @@ export const parseRunewords = (database) => {
           continue
         }
 
-        runewordRunesArray.push(rune.name.replace(" Rune", ""))
+        _runesArray.push(rune.name.replace(" Rune", ""))
       }
     }
 
-    const runewordRunes = runewordRunesArray.join("");
-    const runewordRarity = "Runeword"
-    const runewordDatabaseIndex = `${runewordRarity}/${runewordCode}`
-
-    const skipIteration = shouldSkipRuneword(database, runewordCode, runewordName, runewordDisplayName, runewordRarity, runewordDatabaseIndex)
-
-    if (skipIteration) {
-      logWarning(`Skipping iteration for ${runewordCode}`)
-      return
-    }
+    const _runes = _runesArray.join("");
+    const _rarity = "runeword"
+    const _databaseIndex = `${_rarity}/${_id}`
 
     const runewordGrailEntry = {
-      code: runewordCode,
-      name: runewordName,
-      displayName: runewordDisplayName,
-      databaseIndex: runewordDatabaseIndex,
-      runes: runewordRunes,
-      rarity: runewordRarity,
+      id: _id,
+      name: _name,
+      displayName: _displayName,
+      rarity: _rarity,
+      runes: _runes,
+      databaseIndex: _databaseIndex,
       found: false
     }
 
     const runewordDatabaseIndexEntry = {
-      code: runewordCode,
-      name: runewordName,
-      displayName: runewordDisplayName,
-      runes: runewordRunes,
-      rarity: runewordRarity,
-      databaseIndex: runewordDatabaseIndex
+      id: _id,
+      name: _name,
+      displayName: _displayName,
+      rarity: _rarity,
+      runes: _runes,
+      databaseIndex: _databaseIndex
     }
 
     database['grailData'] ??= {}
-    database['grailData'][runewordRarity] ??= {}
+    database['grailData'][_rarity] ??= {}
 
-    database['grailData'][runewordRarity][runewordCode] = runewordGrailEntry
-    database['grailData']['databaseIndexes'][runewordCode] = runewordDatabaseIndexEntry
-    database['grailData']['databaseIndexesArray'].push(runewordDatabaseIndexEntry)
-    database['grailData']['totalRunewords'] += 1
+    database['grailData'][_rarity][_id] = runewordGrailEntry
 
+    indexRuneword(database, runewordDatabaseIndexEntry)
   })
 }
 
-const shouldSkipRuneword = (database, runewordCode, runewordName, runewordDisplayName, runewordRarity, runewordDatabaseIndex) => {
-  const existingEntry = database.grailData.databaseIndexesArray.find((databaseIndexArrayEntry) => {
-    return databaseIndexArrayEntry.databaseIndex == runewordDatabaseIndex ||
-      (databaseIndexArrayEntry.code == runewordCode && databaseIndexArrayEntry.rarity == runewordRarity) ||
-      (databaseIndexArrayEntry.name == runewordName && databaseIndexArrayEntry.rarity == runewordRarity) ||
-      (databaseIndexArrayEntry.displayName == runewordDisplayName && databaseIndexArrayEntry.rarity == runewordRarity)
+const indexRuneword = (database, item) => {
+  // First insertion into the object indexes
+  database['grailData']['databaseIndexes']['runeword'][item.id] = item
+
+  const existingArrayEntry = database['grailData']['databaseIndexesArray'].find((entry) => {
+    return entry.databaseIndex == item.databaseIndex
   })
 
-  if (existingEntry) {
-    return true
+  if (!existingArrayEntry) {
+    // Second insertion into the array indexes
+    database['grailData']['databaseIndexesArray'].push(item)
+    database['grailData']['totalRunewords'] += 1
   } else {
-    return false
+    logWarning(`${item.databaseIndex} already exists in databaseIndexesArray`)
   }
 }

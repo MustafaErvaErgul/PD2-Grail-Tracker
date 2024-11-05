@@ -6,7 +6,7 @@ import Item from "../../components/Item/Item"
 const Runes = () => {
   const database = useZustand(state => state.database)
 
-  const runes = convertObjectToArray(database['Rune'])
+  const runes = convertObjectToArray(database['rune'])
 
   return (
     <div id="page-content">

@@ -70,16 +70,16 @@ const useZustand = create((set, get) => ({
 
     if (newFoundValue) {
       switch (updatedItem.rarity) {
-        case "Unique":
+        case "unique":
           updatedDatabase.totalUniqueItemsFound += 1
           break
-        case "Set":
+        case "set":
           updatedDatabase.totalSetItemsFound += 1
           break
-        case "Runeword":
+        case "runeword":
           updatedDatabase.totalRunewordsFound += 1
           break
-        case "Rune":
+        case "rune":
           updatedDatabase.totalRunesFound += 1
           break
         default:
@@ -87,16 +87,16 @@ const useZustand = create((set, get) => ({
       }
     } else {
       switch (updatedItem.rarity) {
-        case "Unique":
+        case "unique":
           updatedDatabase.totalUniqueItemsFound -= 1
           break
-        case "Set":
+        case "set":
           updatedDatabase.totalSetItemsFound -= 1
           break
-        case "Runeword":
+        case "runeword":
           updatedDatabase.totalRunewordsFound -= 1
           break
-        case "Rune":
+        case "rune":
           updatedDatabase.totalRunesFound -= 1
           break
         default:
@@ -108,18 +108,23 @@ const useZustand = create((set, get) => ({
     writeToDatabase()
   },
 
-  markItemAsFound: (itemName) => {
+  markItemAsFound: (itemRarity, itemId) => {
     const database = get().database
     const setDatabase = get().setDatabase
     const writeToDatabase = get().writeToDatabase
     const showToast = get().showToast
 
-    const databaseIndexEntry = database.databaseIndexesArray.find((element) => {
-      return element.name == itemName || element.displayName == itemName
-    })
+    let databaseIndexEntry = database['databaseIndexes'][itemRarity][itemId]
+
+    // If it can't directly access the item using databaseIndexes, we search for it in the array
+    if (!databaseIndexEntry) {
+      databaseIndexEntry = database['databaseIndexesArray'].find((element) => {
+        return element.name === itemId || element.displayName === itemId
+      })
+    }
 
     if (!databaseIndexEntry) {
-      showToast("error", "Error!", `Failed to find databaseIndexEntry ${itemName}`)
+      showToast("error", "Error!", `Failed to find databaseIndexEntry ${itemRarity} ${itemId}`)
       return
     }
 
@@ -141,20 +146,20 @@ const useZustand = create((set, get) => ({
       updatedItem.found = newFoundValue
 
       if (newFoundValue) {
-        switch (updatedItem.rarity) {
-          case "Unique":
+        switch (itemRarity) {
+          case "unique":
             updatedDatabase.totalUniqueItemsFound += 1
             showToast("success", "Success!", `${updatedItem.displayName} tracked successfully!`)
             break
-          case "Set":
+          case "set":
             updatedDatabase.totalSetItemsFound += 1
             showToast("success", "Success!", `${updatedItem.displayName} tracked successfully!`)
             break
-          case "Runeword":
+          case "runeword":
             updatedDatabase.totalRunewordsFound += 1
             showToast("success", "Success!", `${updatedItem.displayName} tracked successfully!`)
             break
-          case "Rune":
+          case "rune":
             updatedDatabase.totalRunesFound += 1
             showToast("success", "Success!", `${updatedItem.displayName} tracked successfully!`)
             break
@@ -162,20 +167,20 @@ const useZustand = create((set, get) => ({
             break
         }
       } else {
-        switch (updatedItem.rarity) {
-          case "Unique":
+        switch (itemRarity) {
+          case "unique":
             updatedDatabase.totalUniqueItemsFound -= 1
             showToast("success", "Success!", `${updatedItem.displayName} tracked successfully!`)
             break
-          case "Set":
+          case "set":
             updatedDatabase.totalSetItemsFound -= 1
             showToast("success", "Success!", `${updatedItem.displayName} tracked successfully!`)
             break
-          case "Runeword":
+          case "runeword":
             updatedDatabase.totalRunewordsFound -= 1
             showToast("success", "Success!", `${updatedItem.displayName} tracked successfully!`)
             break
-          case "Rune":
+          case "rune":
             updatedDatabase.totalRunesFound -= 1
             showToast("success", "Success!", `${updatedItem.displayName} tracked successfully!`)
             break

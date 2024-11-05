@@ -12,19 +12,24 @@ const database = {
   otherBases: [],
   pd2Bases: [],
   grailData: {
-    databaseIndexes: {},
+    databaseIndexes: {
+      unique: {},
+      set: {},
+      runeword: {},
+      rune: {}
+    },
     databaseIndexesArray: [],
-    Unique: {},
+    unique: {},
     totalUniqueItems: 0,
     totalUniqueItemsFound: 0,
-    Set: {},
+    set: {},
     totalSetItems: 0,
     totalSetItemsFound: 0,
-    Runeword: {},
+    runeword: {},
     includeRunewords: true,
     totalRunewords: 0,
     totalRunewordsFound: 0,
-    Rune: {},
+    rune: {},
     includeRunes: true,
     totalRunes: 0,
     totalRunesFound: 0
@@ -42,4 +47,4 @@ parseRunewords(database)
 
 const grailData = database['grailData']
 
-fs.writeFileSync("./database.txt", JSON.stringify(grailData, null, 2), "utf8");
+fs.writeFileSync("../database.txt", JSON.stringify(grailData, null, 2), "utf8");

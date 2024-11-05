@@ -4,13 +4,21 @@ const infoLogFilePath = "./logs/info.txt"
 const warningLogFilePath = "./logs/warning.txt"
 const errorLogFilePath = "./logs/error.txt"
 
+const combinedStringTables =
+  fs.readFileSync("assets/string/patchstring.txt", "latin1") +
+  fs.readFileSync("assets/string/lodexpansionstring.txt", "latin1") +
+  fs.readFileSync("assets/string/lodpatchstring.txt", "latin1") +
+  fs.readFileSync("assets/string/lodstring.txt", "latin1")
+
+const stringTables = convertStringTablesToArray(combinedStringTables)
+
 export const determineItemTier = (item) => {
   if (item.code === item.normcode) {
-    return "Normal"
+    return "normal"
   } else if (item.code === item.ubercode) {
-    return "Exceptional"
+    return "exceptional"
   } else if (item.code === item.ultracode) {
-    return "Elite"
+    return "elite"
   } else {
     logError(`determineItemTier failed for ${item.name}`)
   }
@@ -32,7 +40,7 @@ export const findStringTableValue = (string) => {
   }
 }
 
-export const convertStringTablesToArray = (fileData) => {
+function convertStringTablesToArray(fileData) {
   const lines = fileData.split("\n")
 
   return lines.map(line => {
@@ -45,14 +53,6 @@ export const convertStringTablesToArray = (fileData) => {
     }
   })
 }
-
-const combinedStringTables =
-  fs.readFileSync("assets/string/patchstring.txt", "latin1") +
-  fs.readFileSync("assets/string/lodexpansionstring.txt", "latin1") +
-  fs.readFileSync("assets/string/lodpatchstring.txt", "latin1") +
-  fs.readFileSync("assets/string/lodstring.txt", "latin1")
-
-const stringTables = convertStringTablesToArray(combinedStringTables)
 
 export const convertTxtToArray = (fileData) => {
   const lines = fileData.split("\n")

@@ -1,12 +1,12 @@
 import fs from "fs"
 import { convertTxtToArray, findStringTableValue, logInfo, logWarning, logError } from "../utils/commonUtils.js"
-import { ITEM_TYPES } from "../arbitrary/index.js"
+import { ITEM_BASE_TYPES } from "../arbitrary/index.js"
 
 /*
   Unique Item Fields
-  'index' -> Item name, reference used in 'String Tables'
+  'index' -> ID, Item name, Reference used in 'String Tables'
+  'code' -> Column that points to the base of the Unique item
   'lvl req' -> Level requirement
-  'code' -> Column that is referenced in other .txt files that point to the base
 */
 
 const uniqueItemsFileData = fs.readFileSync("assets/UniqueItems.txt", "latin1")
@@ -22,86 +22,63 @@ export const parseUniqueItems = (database) => {
     }
 
     const uniqueItemBase = findItemBase(database, uniqueItem)
-    const uniqueItemType = findItemType(uniqueItemBase, uniqueItem)
+    const uniqueItemBaseType = findItemBaseType(uniqueItemBase, uniqueItem)
 
-    const uniqueItemName = uniqueItem.index
-    const uniqueItemDisplayName = findStringTableValue(uniqueItem.index)
-    const uniqueItemLevelRequirement = uniqueItem['lvl req']
-    const uniqueItemCode = uniqueItem.code
-    const uniqueItemRarity = "Unique"
-    const uniqueItemCategory = uniqueItemType.category
-    const uniqueItemSubCategory = uniqueItemType.subCategory
-    const uniqueItemTier = uniqueItemBase.tier
+    const _id = uniqueItem.index
+    const _displayName = findStringTableValue(_id)
+    const _base = uniqueItem.code
+    const _rarity = "unique"
+    const _category = uniqueItemBaseType.category
+    const _subCategory = uniqueItemBaseType.subCategory
+    const _tier = uniqueItemBase.tier
+    const _levelRequirement = uniqueItem['lvl req']
 
-    let uniqueItemDatabaseIndex = null
+    let _databaseIndex = null
 
-    if (uniqueItemTier && uniqueItemType.category !== "Other") {
-      uniqueItemDatabaseIndex = `${uniqueItemRarity}/${uniqueItemCategory}/${uniqueItemSubCategory}/${uniqueItemTier}/${uniqueItemName}`
+    if (_tier && _category !== "other") {
+      _databaseIndex = `${_rarity}/${_category}/${_subCategory}/${_tier}/${_id}`
     } else {
-      uniqueItemDatabaseIndex = `${uniqueItemRarity}/${uniqueItemCategory}/${uniqueItemSubCategory}/${uniqueItemName}`
+      _databaseIndex = `${_rarity}/${_category}/${_subCategory}/${_id}`
     }
 
     const uniqueItemGrailEntry = {
-      name: uniqueItemName,
-      displayName: uniqueItemDisplayName,
-      levelRequirement: uniqueItemLevelRequirement,
-      code: uniqueItemCode,
-      rarity: uniqueItemRarity,
-      category: uniqueItemCategory,
-      subCategory: uniqueItemSubCategory,
-      tier: uniqueItemTier,
-      databaseIndex: uniqueItemDatabaseIndex,
+      id: _id,
+      displayName: _displayName,
+      base: _base,
+      levelRequirement: _levelRequirement,
+      rarity: _rarity,
+      category: _category,
+      subCategory: _subCategory,
+      tier: _tier,
+      databaseIndex: _databaseIndex,
       found: false
     }
 
     const uniqueItemDatabaseIndexEntry = {
-      name: uniqueItemName,
-      displayName: uniqueItemDisplayName,
-      category: uniqueItemCategory,
-      subCategory: uniqueItemSubCategory,
-      rarity: uniqueItemRarity,
-      databaseIndex: uniqueItemDatabaseIndex
+      id: _id,
+      displayName: _displayName,
+      category: _category,
+      subCategory: _subCategory,
+      rarity: _rarity,
+      databaseIndex: _databaseIndex
     }
 
     // Since we are inserting these entries in a nested structure, these fields may not be predefined.
     // The purpose here is to initialize these fields if they don't exist.
     database['grailData'] ??= {}
-    database['grailData'][uniqueItemRarity] ??= {}
-    database['grailData'][uniqueItemRarity][uniqueItemCategory] ??= {};
-    database['grailData'][uniqueItemRarity][uniqueItemCategory][uniqueItemSubCategory] ??= {}
+    database['grailData'][_rarity] ??= {}
+    database['grailData'][_rarity][_category] ??= {};
+    database['grailData'][_rarity][_category][_subCategory] ??= {}
 
-    if (uniqueItemTier && uniqueItemType.category !== "Other") {
-      database['grailData'][uniqueItemRarity][uniqueItemCategory][uniqueItemSubCategory][uniqueItemTier] ??= {}
-      database['grailData'][uniqueItemRarity][uniqueItemCategory][uniqueItemSubCategory][uniqueItemTier][uniqueItemName] = uniqueItemGrailEntry
-      database['grailData']['databaseIndexes'][uniqueItemName] = uniqueItemDatabaseIndexEntry
-
-      const existingDatabaseIndexArrayEntry = database['grailData']['databaseIndexesArray'].find((databaseIndexArrayEntry) => {
-        return databaseIndexArrayEntry.databaseIndex == uniqueItemDatabaseIndex
-      })
-
-      if (!existingDatabaseIndexArrayEntry) {
-        database['grailData']['databaseIndexesArray'].push(uniqueItemDatabaseIndexEntry)
-        database['grailData']['totalUniqueItems'] += 1
-      } else {
-        logWarning(`${uniqueItemDatabaseIndex} already exists in databaseIndexesArray`)
-      }
-
+    // For non-weapon/armor Uniques, we don't care about item tier.
+    if (_tier && _category !== "other") {
+      database['grailData'][_rarity][_category][_subCategory][_tier] ??= {}
+      database['grailData'][_rarity][_category][_subCategory][_tier][_id] = uniqueItemGrailEntry
     } else {
-      database['grailData'][uniqueItemRarity][uniqueItemCategory][uniqueItemSubCategory][uniqueItemName] = uniqueItemGrailEntry
-      database['grailData']['databaseIndexes'][uniqueItemName] = uniqueItemDatabaseIndexEntry
-
-      const existingDatabaseIndexArrayEntry = database['grailData']['databaseIndexesArray'].find((databaseIndexArrayEntry) => {
-        return databaseIndexArrayEntry.databaseIndex == uniqueItemDatabaseIndex
-      })
-
-      if (!existingDatabaseIndexArrayEntry) {
-        database['grailData']['databaseIndexesArray'].push(uniqueItemDatabaseIndexEntry)
-        database['grailData']['totalUniqueItems'] += 1
-      } else {
-        logWarning(`${uniqueItemDatabaseIndex} already exists in databaseIndexesArray`)
-      }
-
+      database['grailData'][_rarity][_category][_subCategory][_id] = uniqueItemGrailEntry
     }
+
+    indexUniqueItem(database, uniqueItemDatabaseIndexEntry)
   })
 }
 
@@ -123,28 +100,47 @@ const findItemBase = (database, uniqueItem) => {
   const bases = [...database.armorBases, ...database.weaponBases, ...database.otherBases, ...database.pd2Bases]
 
   const itemBase = bases.find((base) => {
-    return base.code === uniqueItem.code || base.namestr == uniqueItem.code
+    return base.id === uniqueItem.code
   })
 
   if (!itemBase) {
     logError(`findItemBase failed for ${uniqueItem.index}`)
+    return
   }
 
   return itemBase
 }
 
-const findItemType = (itemBase, uniqueItem) => {
-  const itemType = ITEM_TYPES.find((itemType) => {
+const findItemBaseType = (itemBase, uniqueItem) => {
+  const itemBaseType = ITEM_BASE_TYPES.find((element) => {
     if (itemBase.type2) {
-      return itemType.type == itemBase.type && itemType.type2 == itemBase.type2
+      return element.type == itemBase.type && element.type2 == itemBase.type2
     } else {
-      return itemType.type == itemBase.type
+      return element.type == itemBase.type
     }
   })
 
-  if (!itemType) {
+  if (!itemBaseType) {
     logError(`findItemType failed for ${itemBase.name} - ${uniqueItem.index}`)
+    return
   }
 
-  return itemType
+  return itemBaseType
+}
+
+const indexUniqueItem = (database, item) => {
+  // First insertion into the object indexes
+  database['grailData']['databaseIndexes']['unique'][item.id] = item
+
+  const existingArrayEntry = database['grailData']['databaseIndexesArray'].find((entry) => {
+    return entry.databaseIndex == item.databaseIndex
+  })
+
+  if (!existingArrayEntry) {
+    // Second insertion into the array indexes
+    database['grailData']['databaseIndexesArray'].push(item)
+    database['grailData']['totalUniqueItems'] += 1
+  } else {
+    logWarning(`${item.databaseIndex} already exists in databaseIndexesArray`)
+  }
 }

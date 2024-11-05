@@ -23,17 +23,19 @@ const Search = () => {
       return
     } else {
       const results = database.databaseIndexesArray.filter(item => {
-        if (!includeRunes && item.rarity === "Rune") {
+        if (!includeRunes && item.rarity === "rune") {
           return false;
         }
-        if (!includeRunewords && item.rarity === "Runeword") {
+        if (!includeRunewords && item.rarity === "runeword") {
           return false;
         }
 
         return (
-          (item.displayName.toLowerCase().includes(value.toLowerCase())) ||
-          (item.name.toLowerCase().includes(value.toLowerCase())) ||
+          (item.id.toLowerCase().includes(value.toLowerCase())) ||
+          (item.name && item.name.toLowerCase().includes(value.toLowerCase())) ||
+          (item.displayName && item.displayName.toLowerCase().includes(value.toLowerCase())) ||
           (item.setName && item.setName.toLowerCase().includes(value.toLowerCase())) ||
+          (item.setNameDisplayName && item.setNameDisplayName.toLowerCase().includes(value.toLowerCase())) ||
           (item.category && item.category.toLowerCase().includes(value.toLowerCase())) ||
           (item.subCategory && item.subCategory.toLowerCase().includes(value.toLowerCase())) ||
           (item.runes && item.runes.toLowerCase().includes(value.toLowerCase()))

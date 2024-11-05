@@ -6,7 +6,7 @@ import Item from "../../components/Item/Item"
 const Runewords = () => {
   const database = useZustand(state => state.database)
 
-  const runewords = convertObjectToArray(database['Runeword'])
+  const runewords = convertObjectToArray(database['runeword'])
 
   runewords.sort((a, b) => {
     const nameA = a.displayName.toLowerCase()
